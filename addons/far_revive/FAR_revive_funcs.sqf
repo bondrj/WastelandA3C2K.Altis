@@ -153,7 +153,7 @@ FAR_Drag =
 		player addAction ["<t color='#FF0000'>" + "Liberar" + "</t>", "addons\FAR_revive\FAR_handleAction.sqf", ["action_release"], 102]
 	];
 
-	titleText [format ["Pressione %1 (%2) Se você não pode voltar.", (actionKeysNamesArray "TactToggle") param [0,"<UNDEFINED>"], actionName "TactToggle"], "PLAIN DOWN", 0.5];
+	titleText [format ["Pressione %1 (%2) se você não pode voltar.", (actionKeysNamesArray "TactToggle") param [0,"<UNDEFINED>"], actionName "TactToggle"], "PLAIN DOWN", 0.5];
 	player selectWeapon primaryWeapon player;
 
 	// Drag & Carry animation fix

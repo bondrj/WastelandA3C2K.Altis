@@ -13,28 +13,28 @@ _aKeyName = { _arr = actionKeysNamesArray _this; if (count _arr == 0) exitWith {
 
 waitUntil {!isNull player};
 
-player createDiarySubject ["informações sobre", "Informações e Ajuda"];
-player createDiarySubject ["changelog", "Mudanças"];
-player createDiarySubject ["credits", "Créditos"];
+player createDiarySubject ["infos", "Infos and Help"];
+player createDiarySubject ["changelog", "Changelog"];
+player createDiarySubject ["credits", "Credits"];
 
 player createDiaryRecord ["changelog",
 [
 "v1.3b",
 "
-<br/>[Adicionado] Estacionamento privado
-<br/>[Adicionado] Armazenamento privado
-<br/>[Adicionado] Propriedade do veículo
-<br/>[Adicionado] Bloqueio do veículo
-<br/>[Adicionado] Venda de veículos
-<br/>[Adicionado] Mine saving
-<br/>[Adicionado] Camiões de reabastecimento
-<br/>[Adicionado] CH View Distance
-<br/>[Adicionado] Legenda do mapa
-<br/>[Adicionado] Persistência lateral do UAV
-<br/>[Adicionado] limpeza do servidor headless
-<br/>[Alterado] Designadores estáticos agora disponíveis para indies
-<br/>[Alterado] Alguns preços de loja
-<br/>[Fixo] Muitas outras pequenas alterações e correções
+<br/>[Added] Private parking
+<br/>[Added] Private storage
+<br/>[Added] Vehicle ownership
+<br/>[Added] Vehicle locking
+<br/>[Added] Vehicle selling
+<br/>[Added] Mine saving
+<br/>[Added] Resupply trucks
+<br/>[Added] CH View Distance
+<br/>[Added] Map legend
+<br/>[Added] UAV side persistence
+<br/>[Added] headless server cleanup
+<br/>[Changed] Static designators now available to indies
+<br/>[Changed] Some store prices
+<br/>[Fixed] Many other minor changes and fixes
 "
 ]];
 
@@ -42,40 +42,40 @@ player createDiaryRecord ["changelog",
 [
 "v1.3",
 "
-<br/>[Adicionado] Versão Tanoa
-<br/>[Adicionado] Apex conteúdo em dev / preview sucursais
-<br/>[Adicionado] Cargas explosivas pegajosas
-<br/>[Adicionado] Heavy reboque e airlifting
-<br/>[Adicionado] Carga arrastada ferida amigável em veículos
-<br/>[Adicionado] Ejetar carregado ferido amigável de veículos
-<br/>[Adicionado] Autostabilize quando carregado em veículo médico
-<br/>[Adicionado] Acção 'Finish off' para matar inimigos feridos
-<br/>[Adicionado] Melhor detecção de unidade ferida
-<br/>[Adicionado] Opção de persistência do placar para servidores
-<br/>[Adicionado] Fatal PvP headshots opção para servidores
-<br/>[Adicionado] Opção de mensagem de morte personalizada para servidores
-<br/>[ADded] Auto-centro heli torreta em fogo manual
-<br/>[Adicionado] Persistência lateral do UAV
-<br/>[Adicionado] Mais texturas para alguns veículos na loja
-<br/>[Adicionado] Abandoned quadcopter cleanup
-<br/>[Adicionado] Mais log de menu de administração
-<br/>[Alterado] Menor dano de mísseis heli
-<br/>[Alterado] Melhoria do loot da caixa da missão
-<br/>[Changed] Vest armor valores em loja geral
-<br/>[Alterado] Maior flexibilidade Repack Mag
-<br/>[Alterado] Desativado autônomo em designadores estáticos
-<br/>[Alterado] Chuva deficiente devido a desincronização do tempo
-<br/>[Fixo] O engenheiro com toolkit pode agora reparar sempre
-<br/>[Fixo] Maior trava de mísseis
-<br/>[Fixo] Melhorias para matar o sistema de rastreamento
-<br/>[Fixo] Itens e dinheiro não caindo no logout ferido
-<br/>[Fixo] O temporizador de log de combate não é redefinido após a morte
-<br/>[Fixo] Jogador não sempre ejetado em lesão
-<br/>[Fixo] Contagem de dupla matança / morte
+<br/>[Added] Tanoa version
+<br/>[Added] Apex content on dev/preview branches
+<br/>[Added] Sticky explosive charges
+br/> [Added] Heavy towing and airlifting
+<br/>[Added] Load dragged injured friendly in vehicles
+<br/>[Added] Eject loaded injured friendly from vehicles
+<br/>[Added] Autostabilize when loaded in medical vehicle
+<br/>[Added] 'Finish off' action to slay injured enemies
+<br/>[Added] Improved injured unit detection
+<br/>[Added] Scoreboard persistence option for servers
+<br/>[Added] Fatal PvP headshots option for servers
+<br/>[Added] Custom death messages option for servers
+<br/>[ADded] Auto-center heli turret on manual fire
+<br/>[Added] UAV side persistence
+<br/>[Added] More textures for some vehicles in store
+<br/>[Added] Abandoned quadcopter cleanup
+<br/>[Added] More admin menu logging
+<br/>[Changed] Reduced heli missile damage
+<br/>[Changed] Improved mission crate loot
+<br/>[Changed] Vest armor values in general store
+<br/>[Changed] Increased Mag Repack flexibility
+<br/>[Changed] Toggled off autonomous on static designators
+<br/>[Changed] Disabled rain due to weather desync
+<br/>[Fixed] Engineer with toolkit can now always repair
+<br/>[Fixed] Improved missile lock-on
+<br/>[Fixed] Improvements to kill tracking system
+<br/>[Fixed] Items and money not dropping on injured logout
+<br/>[Fixed] Combat log timer not resetting on death
+<br/>[Fixed] Player not always ejected on injury
+<br/>[Fixed] Double kill/death count
 <br/>[Fixed] Spawn cooldowns resetting on rejoin
-<br/>[Fixo] Striders desovando sem baterias de laser
-<br/>[Fixo] Chuva deficiente devido a problemas de sincronização
-<br/>[Fixo] Várias correções de bugs e otimizações menores
+<br/>[Fixed] Striders spawning without laser batteries
+<br/>[Fixed] Disabled rain due to syncing issues
+<br/>[Fixed] Various minor bugfixes and optimizations
 "
 ]];
 
@@ -83,27 +83,27 @@ player createDiaryRecord ["changelog",
 [
 "v1.2b",
 "
-<br/>[Adicionado] Marcação de rolagem via mousewheel
-<br/>[Adicionado] Novo paintjobs para Kajman, Strider, Gorgon, Hatchback
-<br/>[Alterado] Hostile Heli (single) caixas agora spawn no momento do aterragem
-<br/>[Alterado] Reduzido Ifrit centro de massa para reduzir rollovers
-<br/>[Alterado] Banco de dados anti-hack atualizado
-<br/>[Fixo] Granadas salvas não jogáveis ​​na reabertura
-<br/>[Fixo] Corpses não ejetando de destroços de veículos
-<br/>[Fixo] Itens que não caem de cadáveres de destroços de veículos
-<br/>[Fixo] Revive não desencadeando corretamente em tiro fatal
-<br/>[Fixo] Problemas de economia de munição da torre do veículo
-<br/>[Fixo] Resistência a danos muito baixa durante o modo de reactivação
-<br/>[Fixo] UGVs não airliftable via R3F
-<br/>[Fixo] Revive quebrado depois de ser atropelado por veículos
-<br/>[Fixo] Veh respawn não sendo atrasado quando proprietário está dentro de 1km
-<br/>[Fixo] Todos os valores de armadura mostrando 0 na loja geral
-<br/>[Fixo] Categoria de suprimentos na loja geral às vezes vazia
-<br/>[Fixo] As regras do servidor não aparecem mais no menu do mapa
-<br/>[Fixo] Território info sobreposição com veículo HUD
-<br/>[Fixo] Conteúdo do veículo vendendo dinheiro explora
-<br/>[Fixo] Antihack chutes não sempre funcionando corretamente
-<br/>[Fixo] Várias correções de bugs e otimizações menores
+<br/>[Added] Scoreboard scrolling via mousewheel
+<br/>[Added] New paintjobs for Kajman, Strider, Gorgon, Hatchback
+<br/>[Changed] Hostile Heli (single) crates now spawn on touchdown
+<br/>[Changed] Lowered Ifrit center of mass to reduce rollovers
+<br/>[Changed] Updated antihack database
+<br/>[Fixed] Saved grenades not throwable on rejoin
+<br/>[Fixed] Corpses not ejecting from vehicle wrecks
+<br/>[Fixed] Items not dropping from vehicle wreck corpses
+<br/>[Fixed] Revive not triggering properly on fatal shot
+<br/>[Fixed] Vehicle turret ammo saving issues
+<br/>[Fixed] Too low damage resistance during revive mode
+<br/>[Fixed] UGVs not airliftable via R3F
+<br/>[Fixed] Revive broken after getting run over by vehicles
+<br/>[Fixed] Veh respawn not being delayed when owner is within 1km
+<br/>[Fixed] All armor values showing 0 in general store
+<br/>[Fixed] Supplies category in general store sometimes empty
+<br/>[Fixed] Server rules not showing anymore in map menu
+<br/>[Fixed] Territory info overlapping with vehicle HUD
+<br/>[Fixed] Vehicle contents selling money exploit
+<br/>[Fixed] Antihack kicks not always working properly
+<br/>[Fixed] Various minor bugfixes and optimizations
 "
 ]];
 
@@ -111,24 +111,24 @@ player createDiaryRecord ["changelog",
 [
 "v1.2",
 "
-<br/>[Adicionado] Mag Repack por Outlawled (Ctrl + " + NKEYNAME(19) + ")
-<br/>[Adicionado] Adjustable NV por xx-LSD-xx (Shift + PageUp / Down)
-<br/>[Adicionado] Nova loja de veículos paintjobs
-<br/>[Adicionado] Town spawn cooldown
-<br/>[Adicionado] Ghosting timer
-<br/>[Adicionado] Restrição de bloqueio de objetos perto de lojas e missões
-<br/>[Adicionado] Salvamento de objetos de cliente sem cabeça
-<br/>[Adicionado] Economia de tempo e tempo
-<br/>[Alterado] Restrição de controle UAV expandida para quadcopters
-<br/>[Alterado] Jogadores lesionados já não contam como inimigos da cidade
-<br/>[Alterado] ExtDB atualizado para extDB2 pela Torndeco
-<br/>[Alterado] Atualizado anti-hack
-<br/>[Fixo] Balizas de spawn antigas não mais mostradas no menu de spawn
-<br/>[Fixo] Múltiplo dinheiro duping explora
-<br/>[Fixo] Veículos e objetos às vezes desaparecendo do DB
-<br/>[Fixo] Lesões graves causadas por saltos sobre pequenas saliências
-<br/>[Fixo] Antihack chuta devido a RHS, MCC, AGM, ACE3, ALiVE
-<br/>[Fixo] Várias correções de bugs e otimizações menores
+<br/>[Added] Mag Repack by Outlawled (Ctrl + " + NKEYNAME(19) + ")
+<br/>[Added] Adjustable NV by xx-LSD-xx (Shift + PageUp/Down)
+<br/>[Added] New vehicle store paintjobs
+<br/>[Added] Town spawn cooldown
+<br/>[Added] Ghosting timer
+<br/>[Added] Object lock restriction near stores and missions
+<br/>[Added] Headless client object saving
+<br/>[Added] Time and weather saving
+<br/>[Changed] Expanded UAV control restriction to quadcopters
+<br/>[Changed] Injured players no longer count as town enemies
+<br/>[Changed] Upgraded extDB to extDB2 by Torndeco
+<br/>[Changed] Updated antihack
+<br/>[Fixed] Old spawn beacons no longer shown on spawn menu
+<br/>[Fixed] Multiple money duping exploits
+<br/>[Fixed] Vehicles and objects sometimes disappearing from DB
+<br/>[Fixed] Severe injuries caused by jumping over small ledges
+<br/>[Fixed] Antihack kicks due to RHS, MCC, AGM, ACE3, ALiVE
+<br/>[Fixed] Various minor bugfixes and optimizations
 "
 ]];
 
@@ -136,16 +136,16 @@ player createDiaryRecord ["changelog",
 [
 "v1.1b",
 "
-<br/>[Adicionado] Marksmen conteúdo DLC
-<br/>[Adicionado] Impedir o uso da câmera comandante
-<br/>[Adicionado] ejecção de emergência tecla de atalho (Ctrl + " + AKEYNAME("GetOut") + ")
-<br/>[Adicionado] Conexão UAV restrita ao grupo do proprietário
-<br/>[Alterado] Tempo de preparação do veículo comprado melhorado
-<br/>[Alterado] Os administradores agora podem usar o bate-papo de voz global
-<br/>[Alterado] Atualizado anti-hack
-<br/>[Fixo] Corpses não sendo ejetados de veículos
-<br/>[Fixo] Imagem térmica não funciona para UAVs
-<br/>[Fixo] Várias correções de bugs e otimizações menores
+<br/>[Added] Marksmen DLC content
+<br/>[Added] Prevent usage of commander camera
+<br/>[Added] Emergency eject hotkey (Ctrl + " + AKEYNAME("GetOut") + ")
+<br/>[Added] Restricted UAV connection to owner's group
+<br/>[Changed] Improved purchased vehicle setup time
+<br/>[Changed] Admins can now use global voice chat
+<br/>[Changed] Updated antihack
+<br/>[Fixed] Corpses not being ejected from vehicles
+<br/>[Fixed] Thermal imaging not working for UAVs
+<br/>[Fixed] Various minor bugfixes and optimizations
 "
 ]];
 
@@ -153,18 +153,18 @@ player createDiaryRecord ["changelog",
 [
 "v1.1",
 "
-<br/>[Adicionado] ATMs
-<br/>[Adicionado] Union Jack veículo cor
-<br/>[Adicionado] Skins escondidos em gamefiles para MH-9, Mohawk e Taru
-<br/>[Adicionado] Câmera de administração melhorada por micovery
-<br/>[Adicionado] Earplugs (Tecla final)
-<br/>[Alterado] Reescrita completa do sistema de respawning do veículo
-<br/>[Fixo] Jogador movido para a posição muito cedo durante salvar restauração
-<br/>[Fixo] Tempo limite da missão não estendendo em AI kill
-<br/>[Fixo] Desbloqueio do Teamkill Admin
-<br/>[Fixo] Melhor fixação FPS
-<br/>[Corrigido] Correr falha de pára-quedas de animação
-<br/>[Fixo] Várias outras correções de bugs menores e otimizações
+<br/>[Added] ATMs
+<br/>[Added] Union Jack vehicle color
+<br/>[Added] Skins hidden in gamefiles for MH-9, Mohawk, and Taru
+<br/>[Added] Improved admin spectate camera by micovery
+<br/>[Added] Earplugs (End key)
+<br/>[Changed] Full rewrite of vehicle respawning system
+<br/>[Fixed] Player moved to position too early during save restore
+<br/>[Fixed] Mission timeout not extending on AI kill
+<br/>[Fixed] Admin teamkill unlocking
+<br/>[Fixed] Improved FPS fix
+<br/>[Fixed] Running animation parachute glitch
+<br/>[Fixed] Various other minor bugfixes and optimizations
 "
 ]];
 
@@ -172,24 +172,24 @@ player createDiaryRecord ["changelog",
 [
 "v1.0c",
 "
-<br/>[Adicionado] suporte ao MySQL via extensão extDB
-<br/>[Adicionado] Town Invasion mission
-<br/>[Adicionado] Chain-reaction player kill tracking
-<br/>[Adicionado] Force Save ação para veículos comprados e capturados
-<br/>[Adicionado] Autokick players previamente detectados por antihack
-<br/>[Adicionado] Entity cache script para cliente sem cabeça
-<br/>[Adicionado] Tron fatos para loja geral
-<br/>[Adicionado] Linhas vermelhas no mapa para AIs vagando longe de missões
-<br/>[Alterado] Tempo de espera da missão é estendido em AI kill
-<br/>[Alterado] Transporte Heli missão Taru variante para Banco
-<br/>[Alterado] Spawn beacon item queda para saco de dormir
-<br/>[Fixo] Mais dinheiro explora
-<br/>[Fixo] Marcação
-<br/>[Fixo] Reparação de veículos e reabastecimento às vezes não funciona
-<br/>[Fixo] Corpos de jogadores lesionados sendo excluídos na desconexão
-<br/>[Fixo] Prevenção de desmontagem de armas estáticas
-<br/>[Fixo] Excesso de foguetes comprados terminando em uniforme ou colete
-<br/>[Fixo] Várias outras correções de bugs menores e otimizações
+<br/>[Added] MySQL support via extDB extension
+<br/>[Added] Town Invasion mission
+<br/>[Added] Chain-reaction player kill tracking
+<br/>[Added] Force Save action for purchased and captured vehicles
+<br/>[Added] Autokick players previously detected by antihack
+<br/>[Added] Entity caching script for headless client
+<br/>[Added] Tron suits to general store
+<br/>[Added] Red lines on map for AIs wandering away from missions
+<br/>[Changed] Mission timeout gets extended on AI kill
+<br/>[Changed] Transport Heli mission Taru variant to Bench
+<br/>[Changed] Spawn beacon item drop to sleeping bag
+<br/>[Fixed] More money exploits
+<br/>[Fixed] Scoreboard ordering
+<br/>[Fixed] Vehicle repair and refuel sometimes not working
+<br/>[Fixed] Injured players' corpses being deleted on disconnect
+<br/>[Fixed] Static weapon disassembly prevention
+<br/>[Fixed] Excess bought rockets ending up in uniform or vest
+<br/>[Fixed] Various other minor bugfixes and optimizations
 "
 ]];
 
@@ -197,23 +197,23 @@ player createDiaryRecord ["changelog",
 [
 "v1.0b",
 "
-<br/>[Adicionado] Conteúdo de DLC do Helicopters
-<br/>[Adicionado] Menu respawn revamped
-<br/>[Adicionado] 250m limite de altitude para a captura de território
-<br/>[Adicionado] Inserção HALO em balizas de spawn
-<br/>[Adicionado] Novas texturas de loja de veículos
-<br/>[Alterado] Maior dano causado aos aviões em 50%
-<br/>[Mudado] Desligamento de motores planos quando acima de 90% de dano
-<br/>[Alterado] Os nomes dos jogadores também podem ser alternados com a tecla Início
-<br/>[Alterado] Aumento do preço ATGM UAV
-<br/>[Alterado] Aumento dos preços dos escopos térmicos novamente
-<br/>[Alterado] edições menores para gerar loadouts
-<br/>[Fixo] FPS drop que começou em v0.9h
-<br/>[Fixo] UAVs salvos não sendo conectáveis
-<br/>[Fixo] Indies incapaz de entrar em UGVs
-<br/>[Fixo] Piscando névoa
-<br/>[Fixo] Números cortados no placar
-<br/>[Fixo] Minor outras otimizações e correções
+<br/>[Added] Helicopters DLC content
+<br/>[Added] Revamped respawn menu
+<br/>[Added] 250m altitude limit for territory capture
+<br/>[Added] HALO insertion on spawn beacons
+<br/>[Added] New vehicle store textures
+<br/>[Changed] Increased damage done to planes by 50%
+<br/>[Changed] Plane engines shutdown when above 90% damage
+<br/>[Changed] Player names can also be toggled with Home key
+<br/>[Changed] Increased ATGM UAV price
+<br/>[Changed] Increased prices from thermal scopes again
+<br/>[Changed] Minor edits to spawn loadouts
+<br/>[Fixed] FPS drop that began in v0.9h
+<br/>[Fixed] Saved UAVs not being connectable
+<br/>[Fixed] Indies unable to get in UGVs
+<br/>[Fixed] Blinking fog
+<br/>[Fixed] Clipped numbers on scoreboard
+<br/>[Fixed] Minor other optimizations and fixes
 "
 ]];
 
@@ -221,18 +221,18 @@ player createDiaryRecord ["changelog",
 [
 "v1.0",
 "
-<br/>[Adicionado] Marcador personalizado
-<br/>[Adicionado] Missão e armazenar veículo salvando
-<br/>[Adicionado] Marcadores de jogador em GPS e UAV Terminal
-<br/>[Adicionado] Holster ações
-<br/>[Alterado] Reescrita completa do sistema de missão lateral
-<br/>[Alterado] A tecla Windows alterna os nomes dos marcadores do player também
-<br/>[Alterado] Nova imagem de carregamento por Gameaholic.se
-<br/>[Fixo] Arma às vezes desaprova ao mover objetos
-<br/>[Fixo] Mais dinheiro duping explora
-<br/>[Fixo] Armazena tamanhos de menu em proporções de aspecto menores
-<br/>[Fixo] A fome e a sede reajustada
-<br/>[Fixo] Outras otimizações menores e correções
+<br/>[Added] Custom scoreboard
+<br/>[Added] Mission and store vehicle saving
+<br/>[Added] Player markers on GPS and UAV Terminal
+<br/>[Added] Holster actions
+<br/>[Changed] Full rewrite of side mission system
+<br/>[Changed] Windows key toggles player marker names too
+<br/>[Changed] New loading picture by Gameaholic.se
+<br/>[Fixed] Weapon sometimes disppearing when moving objects
+<br/>[Fixed] More money duping exploits
+<br/>[Fixed] Store menu sizes on smaller aspect ratios
+<br/>[Fixed] Hunger and thirst reset on rejoin
+<br/>[Fixed] Other minor optimizations and fixes
 "
 ]];
 
@@ -240,59 +240,59 @@ player createDiaryRecord ["changelog",
 [
 "v0.9h",
 "
-<br/>[Adicionado] Custom revive sistema baseado em Farooq's Revive
-<br/>[Adicionado] Folha de pagamento do território em intervalos regulares
-<br/>[Adicionado] Emergência ejetar e pára-quedas livre (tecla de salto)
-<br/>[Adicionado] Nomes de jogadores alternados com a chave do Windows
-<br/>[Adicionado] Maior dano de mísseis contra tanques e helis
-<br/>[Adicionado] Capacidade de esconder dinheiro em caixas de armas
-<br/>[Adicionado] Capacidade de vender inventário de veículos em lojas
-<br/>[Adicionado] Mais variantes de envio de remessa de dinheiro
-<br/>[Adicionado] Redução de danos nas rodas devido a colisões
-<br/>[Adicionado] Wreck salvamento
-<br/>[Adicionado] Selling bin em lojas
-<br/>[Adicionado] Karts conteúdo DLC nas lojas
-<br/>[Adicionado] Camo sniper rifles in gunstore
-<br/>[Adicionado] Repair Offroad em loja de veículos
-<br/>[Adicionado] Jogadores da equipe no mapa como opção do servidor
-<br/>[Adicionado] Unlimited stamina server option
-<br/>[Adicionado] Opção de servidor estático para salvar armas
-<br/>[Adicionado] Mais ações do veículo de empurrar
-<br/>[Adicionado] opção Paradrop para veículos com transporte aéreo
-<br/>[Adicionado] Caixa de seleção Preload no menu respawn
-<br/>[Adicionado] Restrição remota de distância de armazenamento de explosivos
-<br/>[Adicionado] Multiplicadores de tempo de servidor para dia e noite
-<br/>[Adicionado] Addon-less profileNamespace server persistence
-<br/>[Adicionado] Compatibilidade com servidor Linux
-<br/>[Adicionado] Suporte básico para cliente sem cabeça
-<br/>[Alterado] A captura de território independente agora é baseada em grupos
-<br/>[Alterado] Cidades bloqueadas se mais inimigos do que amigáveis
-<br/>[Alterado] Aumento da carga de munição / combustível / reparação para caminhões de reabastecimento
-<br/>[Alterado] Aumento das recompensas de captura de território para Altis
-<br/>[Alterado] Aumento da recompensa da missão de dinheiro
-<br/>[Mudado] Arma loot em edifícios agora desativado por padrão
-<br/>[Mudado] O loot das caixas da missão foi feito mais aleatório
-<br/>[Alterado] A imagem térmica está agora disponível em UAVs
-<br/>[Alterado] Aumento dos preços de loja de veículos
-<br/>[Alterado] Aumento dos preços da óptica térmica
-<br/>[Alterado] Aumentou os ícones dos jogadores até 2000m
-<br/>[Alterado] Antihack melhorado
-<br/>[Alterado] FPS melhorado
-<br/>[Fixo] Erros de compra de loja de veículos devido a atraso de servidor
-<br/>[Fixo] Cadáver criado ao sair com a poupança do jogador
-<br/>[Fixo] Manuseio personalizado de danos no veículo não funciona
-<br/>[Fixo] Indie-indie spawn beacon roubando
-<br/>[Fixo] Kit de reparo e limite de distância jerrycan
-<br/>[Fixo] Spawn beacon embalagem e roubo restrições
-<br/>[Fixo] Não é possível bloquear armas estáticas
-<br/>[Fixo] Unbreakable store windows
-<br/>[Fixo] Stratis airbase gunstore secretária falhas
-<br/>[Fixo] Missões às vezes terminando instantaneamente
-<br/>[Fixo] Objeto munição / combustível / reparação de carga não poupança
-<br/>[Fixo] Respawn relação de aspecto do menu em algumas resoluções
-<br/>[Fixo] Bugs menores com sistema de grupo
-<br/>[Fixo] Pequenos bugs com itens do jogador
-<br/>[Fixo] Várias outras correções de bugs menores e otimizações
+<br/>[Added] Custom revive system based on Farooq's Revive
+<br/>[Added] Territory payroll at regular intervals
+<br/>[Added] Emergency eject and free parachutes (jump key)
+<br/>[Added] Player names toggled with Windows key
+<br/>[Added] Increased missile damage against tanks and helis
+<br/>[Added] Ability to stash money in weapon crates
+<br/>[Added] Ability to sell vehicle inventory at stores
+<br/>[Added] More money shipment mission variants
+<br/>[Added] Reduced wheel damage from collisions
+<br/>[Added] Wreck salvaging
+<br/>[Added] Selling bin in stores
+<br/>[Added] Karts DLC content in stores
+<br/>[Added] Camo sniper rifles in gunstore
+<br/>[Added] Repair Offroad in vehicle store
+<br/>[Added] Team players on map as server option
+<br/>[Added] Unlimited stamina server option
+<br/>[Added] Static weapon saving server option
+<br/>[Added] More push vehicle actions
+<br/>[Added] Paradrop option for airlifted vehicles
+<br/>[Added] Preload checkbox on respawn menu
+<br/>[Added] Remote explosives store distance restriction
+<br/>[Added] Server time multipliers for day and night
+<br/>[Added] Addon-less profileNamespace server persistence
+<br/>[Added] Linux server compatibility
+<br/>[Added] Basic support for headless client
+<br/>[Changed] Independent territory capture is now group-based
+<br/>[Changed] Towns blocked if more enemies than friendlies
+<br/>[Changed] Increased ammo/fuel/repair cargo for resupply trucks
+<br/>[Changed] Increased territory capture rewards for Altis
+<br/>[Changed] Increased money mission rewards
+<br/>[Changed] Weapon loot in buildings now disabled by default
+<br/>[Changed] Mission crates loot was made more random
+<br/>[Changed] Thermal imaging is now available on UAVs
+<br/>[Changed] Increased vehicle store prices
+<br/>[Changed] Increased prices for thermal optics
+<br/>[Changed] Increased player icons up to 2000m
+<br/>[Changed] Improved antihack
+<br/>[Changed] Improved FPS
+<br/>[Fixed] Vehicle store purchase errors due to server lag
+<br/>[Fixed] Corpse created when leaving with player saving
+<br/>[Fixed] Custom vehicle damage handling not working
+<br/>[Fixed] Indie-indie spawn beacon stealing
+<br/>[Fixed] Repair kit and jerrycan distance limit
+<br/>[Fixed] Spawn beacon packing and stealing restrictions
+<br/>[Fixed] Not able to lock static weapons
+<br/>[Fixed] Unbreakable store windows
+<br/>[Fixed] Stratis airbase gunstore desk glitches
+<br/>[Fixed] Missions sometimes completing instantaneously
+<br/>[Fixed] Object ammo/fuel/repair cargo not saving
+<br/>[Fixed] Respawn menu aspect ratio on some resolutions
+<br/>[Fixed] Minor bugs with group system
+<br/>[Fixed] Minor bugs with player items
+<br/>[Fixed] Various other minor bugfixes and optimizations
 "
 ]];
 
@@ -300,41 +300,41 @@ player createDiaryRecord ["changelog",
 [
 "v0.9g",
 "
-<br/>[Adicionado] - Lojas de veículos
-<br/>[Adicionado] - Lootspawner novo por Na_Palm, material em TODOS OS edifícios
-<br/>[Adicionado] - Novos jatos e caminhões adicionados em A3 v1.14
-<br/>[Adicionado] - Novos veículos AAF adicionados em A3 v1.08
-<br/>[Adicionado] - Novos cams para Mk20 e MX em gunstores
-<br/>[Adicionado] - Capacidade de empurrar o avião para trás
-<br/>[Adicionado] - Capacidade de vender conteúdos de quadbike como caixas
-<br/>[Adicionado] - Atraso de aborto durante o combate quando o jogador salvar
-<br/>[Alterado] - Melhoria do menu de respawn
-<br/>[Alterado] - Respawn agora mais tempo para pré-carregar o destino
-<br/>[Alterado] - Ícones de jogador otimizados
-<br/>[Alterado] - Correção FPS otimizada
-<br/>[Alterado] - Maior persistência do servidor (requer iniDBI v1.4 +)
-<br/>[Alterado] - Melhoria da poupança de jogadores (específica do servidor)
-<br/>[Alterado] - Economia de base melhorada (específica do servidor)
-<br/>[Alterado] - Engrenagem de partida reduzida
-<br/>[Alterado] - Modificado alguns preços de loja
-<br/>[Alterado] - Redução do combustível inicial em carros e helis
-<br/>[Alterado] - Remoção do jato Buzzard de pistas muito curtas
-<br/>[Alterado] - Removido o território do castelo de Kavala para uso como base
-<br/>[Alterado] - Aumento do tempo de reparação do veículo para 20 seg.
-<br/>[Alterado] - Tempo de desbloqueio do proprietário aumentado para 10 seg.
-<br/>[Alterado] - Permitir spawn beacon perms agora é instantâneo
-<br/>[Alterado] - Melhorado Opção de Tomar para itens de jogador
-<br/>[Alterado] - Adicionado opção para cancelar a seleção de reboque
-<br/>[Alterado] - Adicionado artilheiro à missão principal NPCs
-<br/>[Changed] - Adicionado granadeiro para NPCs missão lateral
-<br/>[Fixo] - Mensagens de erro em vários menus
-<br/>[Fixo] - Bater ao alternar perms de beacon perms
-<br/>[Fixo] - Erro ao invadir warchests
-<br/>[Fixo] - Posições de reboque e levantamento de veículos
-<br/>[Fixo] - Reparação de opção de veículo mostrando para veículos novos
-<br/>[Fixo] - Preço de compra do Vest
-<br/>[Fixo] - Valor da armadura do casaco e do capacete
-<br/>[Fixo] - Líder NPC agora tem munição de lançador
+<br/>[Added] - Vehicle stores
+<br/>[Added] - New lootspawner by Na_Palm, stuff in ALL buildings
+<br/>[Added] - New jets and truck added in A3 v1.14
+<br/>[Added] - New AAF vehicles added in A3 v1.08
+<br/>[Added] - New camos for Mk20 and MX in gunstores
+<br/>[Added] - Ability to push plane backwards
+<br/>[Added] - Ability to sell quadbike contents like crates
+<br/>[Added] - Abort delay during combat when player saving on
+<br/>[Changed] - Improved respawn menu
+<br/>[Changed] - Respawn now longer to preload destination
+<br/>[Changed] - Optimized player icons
+<br/>[Changed] - Optimized FPS fix
+<br/>[Changed] - Improved server persistence (requires iniDBI v1.4+)
+<br/>[Changed] - Improved player saving (server-specific)
+<br/>[Changed] - Improved base saving (server-specific)
+<br/>[Changed] - Reduced starting gear
+<br/>[Changed] - Modified some store prices
+<br/>[Changed] - Reduced initial fuel in cars and helis
+<br/>[Changed] - Removed Buzzard jet from too short runways
+<br/>[Changed] - Removed Kavala castle territory for use as base
+<br/>[Changed] - Increased vehicle repair time to 20 sec.
+<br/>[Changed] - Increased owner unlocking time to 10 sec.
+<br/>[Changed] - Toggling spawn beacon perms is now instant
+<br/>[Changed] - Improved Take option for player items
+<br/>[Changed] - Added option to cancel towing selection
+<br/>[Changed] - Added machine gunner to main mission NPCs
+<br/>[Changed] - Added grenadier to side mission NPCs
+<br/>[Fixed] - Error messages in various menus
+<br/>[Fixed] - Crash when toggling spawn beacon perms
+<br/>[Fixed] - Error when hacking warchests
+<br/>[Fixed] - Vehicle towing and lifting positions
+<br/>[Fixed] - Repair Vehicle option showing for brand new vehicles
+<br/>[Fixed] - Vest purchase price
+<br/>[Fixed] - Vest and helmet armor value
+<br/>[Fixed] - NPC leader now has launcher ammo
 "
 ]];
 
@@ -342,14 +342,14 @@ player createDiaryRecord ["changelog",
 [
 "v0.9f",
 "
-<br/>[Adicionado] - Missões monetárias
-<br/>[adicionado] - venda a opção dos artigos da caixa em lojas ao mover a caixa
-<br/>[Alterado] - Lootes reorganizados para caixas e caminhões
-<br/>[Fixo] - Menu Warchest quebrado
-<br/>[Fixo] - Os beacons de Spawn não funcionam para grupos independentes
-<br/>[Fixo] - Posição dos ícones dos jogadores dentro dos edifícios
-<br/>[Fixo] - MRAPs e quadbikes que não desovam
-<br/>[Fixo] - Recompensas de dinheiro quebradas por territórios
+<br/>[Added] - Money missions
+<br/>[Added] - Sell Crate Items option at stores when moving crate
+<br/>[Changed] - Reorganized loots for crates and trucks
+<br/>[Fixed] - Broken Warchest menu
+<br/>[Fixed] - Spawn beacons not working for Independent groups
+<br/>[Fixed] - Player icons position inside buildings
+<br/>[Fixed] - MRAPs and quadbikes not spawning
+<br/>[Fixed] - Broken money rewards for territories
 "
 ]];
 
@@ -357,13 +357,13 @@ player createDiaryRecord ["changelog",
 [
 "v0.9e",
 "
-<br/>[Adicionado] - Sistema de território
-<br/>[Adicionado] - opção Salto (passo ao longo da execução)
-<br/>[Adicionado] - Novas armas da atualização v1.04
-<br/>[Alterado] - Água e comida agora usam garrafas de água e feijões cozidos
-<br/>[Fixo] - Armazenar compras de objetos não funcionando como pretendido
-<br/>[Fixo] - Objetos comprados em lojas que não são salvas corretamente
-<br/>[Fixo] - Vazamento de memória menor no lado do servidor
+<br/>[Added] - Territory system
+<br/>[Added] - Jumping option (step over while running)
+<br/>[Added] - New weapons from v1.04 update
+<br/>[Changed] - Water and food now use water bottles and baked beans
+<br/>[Fixed] - Store object purchases not operating as intended
+<br/>[Fixed] - Objects purchased from stores not saving properly
+<br/>[Fixed] - Minor server-side memory leak
 "
 ]];
 
@@ -371,8 +371,8 @@ player createDiaryRecord ["changelog",
 [
 "v0.9d",
 "
-<br/>[Adicionado] - Armazenar compras de objetos
-<br/>[Alterado] - Nova UI por KoS
+<br/>[Added] - Store object purchases
+<br/>[Changed] - New UI by KoS
 "
 ]];
 
@@ -380,10 +380,10 @@ player createDiaryRecord ["changelog",
 [
 "v0.9c",
 "
-<br/>[Alterado] - Transferência e retirada instantânea de dinheiro
-<br/>[Alterado] - Maior probabilidade de desovar avião e helicóptero
-<br/>[Fixo] - Melhorias de correção do FPS
-<br/>[Fixo] - Veículos que desaparecem quando rasgados ou airdropped
+<br/>[Changed] - Instant money pickup and drop
+<br/>[Changed] - Increased plane and heli spawning odds
+<br/>[Fixed] - FPS fix improvements
+<br/>[Fixed] - Vehicles disappearing when untowed or airdropped
 "
 ]];
 
@@ -391,167 +391,167 @@ player createDiaryRecord ["changelog",
 [
 "v0.9b",
 "
-<br/>[Versão inicial] - Bem-vindo ao Altis!
+<br/>[Initial release] - Welcome to Altis!
 "
 ]];
 
 
 player createDiaryRecord ["credits",
 [
-"Créditos",
+"Credits",
 "
-<br/> <font size = '16' color = '# BBBBBB'> Desenvolvido por A3Wasteland.com: </ font>
-<br/>* AgentRev (TeamPlayerGaming)
-<br/>* JoSchaap (GoT / Tweakers.net)
-<br/>* MercyfulFate
-<br/>* His_Shadow (KoS / KillonSight)
-<br/>* Bewilderbeest (KoS / KillonSight)
-<br/>* Torndeco
-<br/>* Del1te (404Jogos)
+<br/><font size='16' color='#BBBBBB'>Developed by A3Wasteland.com:</font>
+<br/>	* AgentRev (TeamPlayerGaming)
+<br/>	* JoSchaap (GoT/Tweakers.net)
+<br/>	* MercyfulFate
+<br/>	* His_Shadow (KoS/KillonSight)
+<br/>	* Bewilderbeest (KoS/KillonSight)
+<br/>	* Torndeco
+<br/>	* Del1te (404Games)
 <br/>
-<br/></ font> <font size = '16' color = '# BBBBBB'> Missão original de Arma 2 Wasteland: </ font>
-<br/>* Tônico
-<br/>* Sa-Matra
-Marker
+<br/><font size='16' color='#BBBBBB'>Original Arma 2 Wasteland missions by:</font>
+<br/>	* Tonic
+<br/>	* Sa-Matra
+<br/>	* MarKeR
 <br/>
-<br/><font size = '16' color = '# BBBBBB'> Melhorado e portado a Arma 3 por 404Games: </ font>
-<br /> <br /> Deadbeat
-<br/>* Costlyy
-<br/>* Pulso
-<br/>* Domuk
+<br/><font size='16' color='#BBBBBB'>Improved and ported to Arma 3 by 404Games:</font>
+<br/>	* Deadbeat
+<br/>	* Costlyy
+<br/>	* Pulse
+<br/>	* Domuk
 <br/>
-<br/><font size = '16' color = '# BBBBBB'> Outros colaboradores: </ font>
-<br/>* 82ndab-Bravo17 (GitHub)
-<br/>* afroVoodo (Armaholic)
-<br/>* Austerror (GitHub)
-<br/>* AWA (OpenDayZ)
-<br/>* bodybag (Gameaholic.se)
-<br/>* Champ-1 (CHVD)
-<br/>* code34 (iniDBI)
-<br/>* Das Attorney (Salto MF)
-<br/>* Ed! (404Jogos de Games)
-<br/>* Farooq (GitHub)
-<br/>* gtoddc (Fóruns do A3W)
-<br/>* HatchetHarry (GitHub)
-<br/>* Hub (TeamPlayerGaming)
-<br/>* k4n30 (GitHub)
-<br/>* Killzone_Kid (KillzoneKid.com)
-<br/>* Krunch (GitHub)
-<br/>* LouDnl (GitHub)
-<br/>* madbull (R3F)
-<br/>* Mainfrezzer (Magnon)
-<br/>* meat147 (GitHub)
-<br/>* micovery (GitHub)
-<br/>* Na_Palm (fóruns do BIS)
-<br/>* Outlawled (Armaholic)
-<br/>* red281gt (GitHub)
-<br/>* RockHound (BierAG)
-<br/>* s3kShUn61 (GitHub)
-<br/>* Sa-Matra (fóruns do BIS)
-<br/>* Sanjo (GitHub)
-<br/>* SCETheFuzz (GitHub)
-<br/>* Shockwave (fóruns de A3W)
-<br/>* SicSemperTyrannis (iniDB)
-<br/>* SPJESTER (404Jogos dos Games)
-<br/>* spunFIN (fóruns do BIS)
-<br/>* Tonic (fóruns do BIS)
-<br/>* wiking.at (fóruns de A3W)
-<br/>* xx-LSD-xx (Armaholic)
-<br/>* Zenophon (Fóruns do BIS)
+<br/><font size='16' color='#BBBBBB'>Other contributors:</font>
+<br/>	* 82ndab-Bravo17 (GitHub)
+<br/>	* afroVoodo (Armaholic)
+<br/>	* Austerror (GitHub)
+<br/>	* AWA (OpenDayZ)
+<br/>	* bodybag (Gameaholic.se)
+<br/>	* Champ-1 (CHVD)
+<br/>	* code34 (iniDBI)
+<br/>	* Das Attorney (Jump MF)
+<br/>	* Ed! (404Games forums)
+<br/>	* Farooq (GitHub)
+<br/>	* gtoddc (A3W forums)
+<br/>	* HatchetHarry (GitHub)
+<br/>	* Hub (TeamPlayerGaming)
+<br/>	* k4n30 (GitHub)
+<br/>	* Killzone_Kid (KillzoneKid.com)
+<br/>	* Krunch (GitHub)
+<br/>	* LouDnl (GitHub)
+<br/>	* madbull (R3F)
+<br/>	* Mainfrezzer (Magnon)
+<br/>	* meat147 (GitHub)
+<br/>	* micovery (GitHub)
+<br/>	* Na_Palm (BIS forums)
+<br/>	* Outlawled (Armaholic)
+<br/>	* red281gt (GitHub)
+<br/>	* RockHound (BierAG)
+<br/>	* s3kShUn61 (GitHub)
+<br/>	* Sa-Matra (BIS forums)
+<br/>	* Sanjo (GitHub)
+<br/>	* SCETheFuzz (GitHub)
+<br/>	* Shockwave (A3W forums)
+<br/>	* SicSemperTyrannis (iniDB)
+<br/>	* SPJESTER (404Games forums)
+<br/>	* spunFIN (BIS forums)
+<br/>	* Tonic (BIS forums)
+<br/>	* wiking.at (A3W forums)
+<br/>	* xx-LSD-xx (Armaholic)
+<br/>	* Zenophon (BIS Forums)
 <br/>
-<br/><font size = '16'> Agradecimentos A LOTE a todos envolvidos para a ajuda ea inspiração! </ Font>
+<br/><font size='16'>Thanks A LOT to everyone involved for the help and inspiration!</font>
 "
 ]];
 
 
 _WASD = AKEYNAME("MoveForward") + "," + AKEYNAME("MoveBack") + "," + AKEYNAME("TurnLeft") + "," + AKEYNAME("TurnRight");
 
-player createDiaryRecord ["informações sobre",
+player createDiaryRecord ["infos",
 [
-"Chaves de administração Spectate",
+"Admin Spectate keys",
 "
-<br/>Menu Admin Controles da câmera do Spectate:
+<br/>Admin menu Spectate camera controls:
 <br/>
-<br/>Shift + " + AKEYNAME ( " NextChannel " ) +  " (próximo jogador)
-<br/>Shift + " + AKEYNAME ( " PrevChannel " ) +  " (jogador anterior)
-<br/>Shift + " + AKEYNAME ( " Bate-papo " ) +  " (ligar / desligar câmara do alvo)
-<br/>Ctrl + " + NKEYNAME ( 18 ) +  " (câmara de saída)
-<br/>Ctrl + " + NKEYNAME ( 35 ) +  " (alvo de alternância HUD)
-<br/>" + AKEYNAME ( " NightVision " ) +  " (visão noturna, térmica)
-<br/>" +  _WASD  +  " (câmera movimento ao redor)
-<br/>" + NKEYNAME ( 16 ) +  " (movimento de câmera para cima)
-<br/>" + NKEYNAME ( 44 ) +  " (movimento de câmera para baixo)
-<br/>Movimento do mouse (girar a câmera)
-<br/>Mouse Wheel Up (aumentar a velocidade da câmera)
-<br/>Mouse Wheel Down (diminuir a velocidade da câmera)
-<br/>Shift + "  +  _WASD  +  " (movimento da câmera em torno de mais rápido)
-<br/>" + AKEYNAME ( " ShowMap " ) +  " (abrir / fechar mapa - Clique no mapa para teleportar câmara)
+<br/>Shift + " + AKEYNAME("NextChannel") + " (next player)
+<br/>Shift + " + AKEYNAME("PrevChannel") + " (previous player)
+<br/>Shift + " + AKEYNAME("Chat") + " (attach/detach camera from target)
+<br/>Ctrl + " + NKEYNAME(18) + " (exit camera)
+<br/>Ctrl + " + NKEYNAME(35) + " (toggle target HUD)
+<br/>" + AKEYNAME("NightVision") + " (nightvision, thermal)
+<br/>" + _WASD + " (move camera around)
+<br/>" + NKEYNAME(16) + " (move camera up)
+<br/>" + NKEYNAME(44) + " (move camera down)
+<br/>Mouse Move (rotate camera)
+<br/>Mouse Wheel Up (increase camera speed)
+<br/>Mouse Wheel Down (decrease camera speed)
+<br/>Shift + " + _WASD + " (move camera around faster)
+<br/>" + AKEYNAME("ShowMap") + " (open/close map - click on map to teleport camera)
 "
 ]];
 
-player createDiaryRecord ["informações sobre",
+player createDiaryRecord ["infos",
 [
-"Hotkeys do jogador",
+"Player hotkeys",
 "
-<br/>Lista de teclas de atalho do player padrão:
+<br/>List of default player hotkeys:
 <br/>
-<br/>" + NKEYNAME ( 41 ) +  " (menu do leitor aberto)
-<br/>" + NKEYNAME ( 207 ) +  " (tampões alternar)
-<br/>" + NKEYNAME ( 199 ) +  " , "  + NKEYNAME ( 219 ) +  " , "  + NKEYNAME ( 220 ) +  " (os nomes dos jogadores alternar)
-<br/>Ctrl + "  + AKEYNAME ( " GetOut " ) +  " (ejeção de emergência)
-<br/>" + AKEYNAME ( " GetOver " ) +  " (pára-quedas aberto)
-<br/>Shift + "  + NKEYNAME ( 201 ) +  " / "  + NKEYNAME ( 209 ) +  " (ajuste de visão noturna)
-<br/>" + NKEYNAME ( 22 ) +  " (menu admin)
+<br/>" + NKEYNAME(41) + " (open player menu)
+<br/>" + NKEYNAME(207) + " (toggle earplugs)
+<br/>" + NKEYNAME(199) + ", " + NKEYNAME(219) + ", " + NKEYNAME(220) + " (toggle player names)
+<br/>Ctrl + " + AKEYNAME("GetOut") + " (emergency eject)
+<br/>" + AKEYNAME("GetOver") + " (open parachute)
+<br/>Shift + " + NKEYNAME(201) + " / " + NKEYNAME(209) + " (adjust nightvision)
+<br/>" + NKEYNAME(22) + " (admin menu)
 "
 ]];
 
-player createDiaryRecord ["informações sobre",
+player createDiaryRecord ["infos",
 [
-"Dicas e Sugestões",
+"Hints and Tips",
 "
-<br/><font size = '18'> A3Wasteland </ font>
+<br/><font size='18'>A3Wasteland</font>
 <br/>
-<br/>* No início do jogo, espalhe-se e encontre suprimentos antes de se preocupar sobre onde estabelecer um local de encontro ou uma base, os suprimentos são importantes e muito valiosos.
+<br/>* At the start of the game, spread out and find supplies before worrying about where to establish a meeting place or a base, supplies are important and very valuable.
 <br/>
-<br/>* Ao escolher um local de base, é melhor aconselhar um lugar que esteja fora do caminho e não tão óbvio, como aeroportos, cidades, bases de mapa, etc, lembre-se, os jogadores aparecem aleatoriamente em e ao redor Cidades e poderia mesmo gerar dentro de sua base se você configurá-lo em uma cidade.
+<br/>* When picking a base location, it is best advised to pick a place that is out of the way and not so obvious such as airports, cities, map-bound bases, etc. remember, players randomly spawn in and around towns and could even spawn inside your base should you set it up in a town.
 <br/>
-<br/>* Se você spawn em uma área sem veículos ou suprimentos na área imediata, não basta clicar em respawn do menu de pausa, as chances são se você procurar uma área de algumas centenas de metros, você vai encontrar alguma coisa.
+<br/>* If you spawn in an area with no vehicles or supplies in the immediate area, DO NOT just click respawn from the pause menu, chances are if you search an area of a few hundred meters, you will find something.
 <br/>
-<br/>* Esteja sempre à procura de uma visão noturna. Eles estão localizados nas caixas de munição, e há pares espalhados por veículos. Você também pode comprá-los a partir do gunstores. Nighttime sem eles suga, e se você os tiver, você pode conduzir stealth raids em bases inimigas sob a tampa da escuridão completa.
+<br/>* Always be on the lookout for nightvision. they are located in the ammo crates, and there are pairs scattered throughout vehicles. You can also purchase them from the gunstores. Nighttime without them SUCKS, and if you have them, you can conduct stealth raids on enemy bases under the cover of complete darkness.
 <br/>
-<br/>* Quando você configurar uma base, nunca deixe seus suprimentos desprotegidos, um guarda será suficiente, mas é recomendável que você tenha pelo menos 2, talvez 3 guardas na base em todos os momentos.
+<br/>* When you set up a base, never leave your supplies unguarded, one guard will suffice, but it is recommended you have at least 2, maybe 3 guards at base at all times.
 <br/>
-<br/>* Há uns caráteres muito aggressive do AI que spawn com a maioria de missões e protegerão os objetivos da missão com força mortal, esteja ciente deles.
+<br/>* There are very aggressive AI characters that spawn with most missions and will protect the mission objectives with deadly force, be aware of them.
 "
 ]];
 
-player createDiaryRecord ["informações sobre",
+player createDiaryRecord ["infos",
 [
-"Sobre Wasteland",
+"About Wasteland",
 "
-<br/>Wasteland é uma experiência de sobrevivência em equipe versus equipe versus equipe. O objetivo desta missão é reunir sua facção, saquear suprimentos, armas e veículos, e destruir as outras facções. É a sobrevivência no seu melhor! Tenha em mente que este é um trabalho em andamento, por favor, direcione seus relatórios para http://forums.a3wasteland.com/
+<br/>Wasteland is a team versus team versus team sandbox survival experience. The objective of this mission is to rally your faction, scavenge supplies, weapons, and vehicles, and destroy the other factions. It is survival at its best! Keep in mind this is a work in progress, please direct your reports to http://forums.a3wasteland.com/
 <br/>
-<br/>Perguntas freqüentes:
+<br/>FAQ:
 <br/>
-<br/>Q. O que devo fazer aqui?
-<br/>A. Veja a descrição acima
+<br/>Q. What am I supposed to do here?
+<br/>A. See the above description
 <br/>
-<br/>Q. Onde posso pegar uma arma?
-<br/>A. As armas são encontradas em um dos três lugares, primeiro em caixas de munição que vêm como recompensas de missões, dentro e fora de edifícios, e segundo, na seção de engrenagem dos veículos, que também aleatoriamente spawn em torno do mapa. O último lugar para encontrar uma arma seria no gunshops localizados em todo o mapa. Você também pode encontrá-los em jogadores mortos cujos corpos ainda não foram saqueados.
+<br/>Q. Where can I get a gun?
+<br/>A. Weapons are found in one of three places, first in ammo crates that come as rewards from missions, inside and outside buildings, and second, in the gear section of the vehicles, which also randomly spawn around the map. The last place to find a gun would be at the gunshops located throughout the map. You can also find them on dead players whose bodies have not yet been looted.
 <br/>
-<br/>Q. Quais são os círculos azuis no mapa?
-<br/>A. Os círculos representam limites da cidade. Se os soldados amigáveis ​​estão em uma cidade, você pode desovar lá do menu re-spawn; No entanto, se houver uma presença inimiga, você não será capaz de desovar lá.
+<br/>Q. What are the blue circles on the map?
+<br/>A. The circles represent town limits. If friendly soldiers are in a town, you can spawn there from the re-spawn menu; however if there is an enemy presence, you will not be able to spawn there.
 <br/>
-<br/>Q. Por que é tão escuro, eu não consigo ver.
-<br/>A. O servidor tem um ciclo de dia / noite apenas como no mundo real, e como tal, o tempo da noite é um fator em sua sobrevivência. Recomenda-se que você encontre fontes de luz ou use o seu Nightvision Goggles como a escuridão define.
+<br/>Q. Why is it so dark, I cant see.
+<br/>A. The server has a day/night cycle just like in the real world, and as such, night time is a factor in your survival. It is recommended that you find sources of light or use your Nightvision Goggles as the darkness sets in.
 <br/>
-<br/>Q. É ok para eu atirar em meus companheiros de equipe?
-<br/>A. Se você é membro de equipes do BLUFOR ou do OPFOR, então NÃO tem permissão para atirar ou roubar itens e veículos de outros jogadores. Se você jogar como Independente, você é livre para envolver qualquer pessoa, bem como equipe com quem você quiser.
+<br/>Q. Is it ok for me to shoot my team mates?
+<br/>A. If you are member of BLUFOR or OPFOR teams, then you are NOT allowed to shoot or steal items and vehicles from other players. If you play as Independent, you are free to engage anyone as well as team up with anyone you want.
 <br/>
-<br/>Q. O que é com as latas, cestas e sacos grandes?
-<br/>A. Este jogo tem um alimento e sistema de água que você deve permanecer no topo de se você espera sobreviver. Você pode coletar alimentos e água de sacos de alimentos e poços, ou cestas e latas de plástico caiu por jogadores mortos. Alimentos e água também aleatoriamente spawn em torno do mapa.
+<br/>Q. Whats with the canisters, baskets and big bags?
+<br/>A. This game has a food and water system that you must stay on top of if you hope to survive. You can collect food and water from food sacks and wells, or baskets and plastic canisters dropped by dead players. Food and water will also randomly spawn around the map.
 <br/>
-<br/>Q. Eu vi alguém quebrar uma regra, o que eu faço?
-<br/>A. Basta entrar em bate-papo global e chamar a atenção de um dos administradores ou visitar nossos fóruns, e fazer um relatório se a ofensa é grave.
+<br/>Q. I saw someone breaking a rule, what do I do?
+<br/>A. Simply go into global chat and get the attention of one of the admins or visit our forums, and make a report if the offense is serious.
 "
 ]];

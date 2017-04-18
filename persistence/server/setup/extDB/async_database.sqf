@@ -2,9 +2,11 @@
 	File: async_database.sqf
 	Function: extDB_Database_async
 	Author: Bryan "Tonic" Boardwine
+
 	Description:
 	Commits an asynchronous call to extDB
 	Gets result via extDB  4:x + uses 5:x if message is Multi-Part
+
 	Parameters:
 		0: STRING (Query to be ran).
 		1: INTEGER (1 = ASYNC + not return for update/insert, 2 = ASYNC + return for query's).

@@ -176,8 +176,8 @@ class playerSettings {
 
 		class airdrop : w_RscButton {
 			idc = -1;
-			text = "Ammo Repack";
-			onButtonClick = "createDialog'RscDisplaySimpleAmmoRepacker';";			
+			text = "Airdrop Menu";
+			onButtonClick = "[] execVM 'addons\APOC_Airdrop_Assistance\APOC_cli_menu.sqf'";		
 			x = 0.158; y = 0.68;
 			w = 0.225; h = 0.033 * safezoneH;
 		};

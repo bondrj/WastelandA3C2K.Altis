@@ -94,10 +94,11 @@ if (hasInterface || isServer) then
 	[] execVM "addons\parking\functions.sqf";
 	[] execVM "addons\storage\functions.sqf";
 	[] execVM "addons\vactions\functions.sqf";
+	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";
 	[] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 	[] execVM "addons\JumpMF\init.sqf";
 	[] execVM "addons\JTS_PM\Functions.sqf";
-	//[] execVM "addons\outlw_magrepack\MagRepack_init.sqf";
+	[] execVM "addons\outlw_magrepack\MagRepack_init.sqf";
 	[] execVM "addons\lsd_nvg\init.sqf";
 	[] execVM "addons\stickyCharges\init.sqf";
 	[] execVM "addons\scripts\servercredits.sqf";
@@ -110,7 +111,6 @@ if (hasInterface || isServer) then
     [] execVM "addons\scripts\HvD.sqf";                      // High Value Drugrunner
 	[] execVM "addons\scripts\trader.sqf";                 // Trader
 	[] ExecVM "scarCODE\ServerInfoMenu\sqf\initLocal.sqf"; // scarCODE ServerInfoMenu
-	[] ExecVM "scarCODE\SimpleAmmoRepacker\sqf\initLocal.sqf"; // Simples Ammo reembalador script
 };
 
 // Server restart message

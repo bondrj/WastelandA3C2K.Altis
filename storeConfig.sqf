@@ -155,18 +155,18 @@ launcherArray = compileFinal str
 [
 	["RPG-7", "launch_RPG7_F", 7000],
 	["RPG-42 Alamut", "launch_RPG32_F", 10000],
-	["RPG-42 Alamut (G Hex)", "launch_RPG32_ghex_F", 10000, "noDLC"]
-	//["PCML", "launch_NLAW_F", 15000]
-	//["Titan MPRL Compact (Sand)", "launch_Titan_short_F", 20000],
-	//["Titan MPRL Compact (Coyote)", "launch_O_Titan_short_F", 20000],
-	//["Titan MPRL Compact (Olive)", "launch_I_Titan_short_F", 20000],
-	//["Titan MPRL Compact (Tropic)", "launch_B_Titan_short_tna_F", 20000, "noDLC"],
-	//["Titan MPRL Compact (G Hex)", "launch_O_Titan_short_ghex_F", 20000, "noDLC"],
-	//["Titan MPRL AA (Sand)", "launch_Titan_F", 20000],
-	//["Titan MPRL AA (Hex)", "launch_O_Titan_F", 20000],
-	//["Titan MPRL AA (Digi)", "launch_I_Titan_F", 20000],
-	//["Titan MPRL AA (Tropic)", "launch_B_Titan_tna_F", 20000, "noDLC"],
-	//["Titan MPRL AA (G Hex)", "launch_O_Titan_ghex_F", 20000, "noDLC"]
+	["RPG-42 Alamut (G Hex)", "launch_RPG32_ghex_F", 10000, "noDLC"],
+	["PCML", "launch_NLAW_F", 15000],
+	["Titan MPRL Compact (Sand)", "launch_Titan_short_F", 20000],
+	["Titan MPRL Compact (Coyote)", "launch_O_Titan_short_F", 20000],
+	["Titan MPRL Compact (Olive)", "launch_I_Titan_short_F", 20000],
+	["Titan MPRL Compact (Tropic)", "launch_B_Titan_short_tna_F", 20000, "noDLC"],
+	["Titan MPRL Compact (G Hex)", "launch_O_Titan_short_ghex_F", 20000, "noDLC"],
+	["Titan MPRL AA (Sand)", "launch_Titan_F", 20000],
+	["Titan MPRL AA (Hex)", "launch_O_Titan_F", 20000],
+	["Titan MPRL AA (Digi)", "launch_I_Titan_F", 20000],
+	["Titan MPRL AA (Tropic)", "launch_B_Titan_tna_F", 20000, "noDLC"],
+	["Titan MPRL AA (G Hex)", "launch_O_Titan_ghex_F", 20000, "noDLC"]	
 ];
 
 allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call rifleArray + call lmgArray + call launcherArray);
@@ -285,10 +285,10 @@ ammoArray = compileFinal str
 	["PG-7VM HEAT Grenade", "RPG7_F", 2000],                   // Direct damage: medium    | Splash damage: low    | Guidance: none
 	["RPG-42 Anti-Tank Rocket", "RPG32_F", 2500],              // Direct damage: high      | Splash damage: low    | Guidance: none
 	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 2500],      // Direct damage: medium    | Splash damage: medium | Guidance: none
-//	["PCML Anti-Tank Missile", "NLAW_F", 4000],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
-//	["Titan Anti-Tank Missile", "Titan_AT", 9500],             // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
-//  ["Titan Anti-Personnel Missile", "Titan_AP", 9500],        // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
-//	["Titan Anti-Air Missile", "Titan_AA", 9500],              // Direct damage: low       | Splash damage: medium | Guidance: aircraft
+	["PCML Anti-Tank Missile", "NLAW_F", 4000],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
+	["Titan Anti-Tank Missile", "Titan_AT", 9500],             // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
+    ["Titan Anti-Personnel Missile", "Titan_AP", 9500],        // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
+	["Titan Anti-Air Missile", "Titan_AA", 9500],              // Direct damage: low       | Splash damage: medium | Guidance: aircraft
 	["40mm HE Grenade Round", "1Rnd_HE_Grenade_shell", 2500],
 	["40mm 3Rnd HE Grenades", "3Rnd_HE_Grenade_shell", 10000],
 	["40mm Smoke Round (White)", "1Rnd_Smoke_Grenade_shell", 50],
@@ -387,10 +387,10 @@ accessoriesArray = compileFinal str
 	["LRPS", "optic_LRPS", 300, "item"],
 	["LRPS (G Hex)", "optic_LRPS_ghex_F", 300, "item"],
 	["LRPS (Tropic)", "optic_LRPS_tna_F", 300, "item"],
-	["NVS", "optic_NVS", 500, "item", "HIDDEN"],
-	["TWS", "optic_tws", 5000, "item", "HIDDEN"], // To hide from store list, add "HIDDEN" after "item", like "item", "HIDDEN"]
-	["TWS MG", "optic_tws_mg", 6000, "item", "HIDDEN"],
-	["Nightstalker", "optic_Nightstalker", 7500, "item", "HIDDEN"]
+	["NVS", "optic_NVS", 500, "item"],
+	["TWS", "optic_tws", 5000, "item"], // To hide from store list, add "HIDDEN" after "item", like "item", "HIDDEN"]
+	["TWS MG", "optic_tws_mg", 6000, "item"],
+	["Nightstalker", "optic_Nightstalker", 7500, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
@@ -438,8 +438,8 @@ headArray = compileFinal str
 	["Boné Militar (Gendarmeria)", "H_MilCap_gen_F", 250, "hat"],
 	["Boné Militar (Tropical)", "H_MilCap_tna_F", 250, "hat"],
 	["Boné Militar (Verde Camuflado)", "H_MilCap_ghex_F", 250, "hat"],	
-	//["Cap op.especiais(Camu)", "H_HelmetO_ViperSP_hex_F", 150000, "hat"],   // APEX
-	//["Cap op.especiais(Green)", "H_HelmetO_ViperSP_ghex_F", 150000, "hat"],  // APEX
+	["Cap op.especiais(Camu)", "H_HelmetO_ViperSP_hex_F", 150000, "hat"],   // APEX
+	["Cap op.especiais(Green)", "H_HelmetO_ViperSP_ghex_F", 150000, "hat"],  // APEX
 	["Cap Ass (Green Camu)", "H_HelmetSpecO_ghex_F", 250, "hat"],
 	["Cap Combat (Tropical)", "H_HelmetB_tna_F", 7500, "hat"],
 	["Cap Combat Leve (Tropical)", "H_HelmetB_Light_tna_F", 7500, "hat"],
@@ -764,14 +764,14 @@ genItemArray = compileFinal str
 	["Compact NVG (Hex)", "O_NVGoggles_hex_F", 2000, "nvg"],
 	["Compact NVG (G Hex)", "O_NVGoggles_ghex_F", 2000, "nvg"],
 	["Compact NVG (Urban)", "O_NVGoggles_urb_F", 2000, "nvg"],
-	//["NVG AP (Brown)", "NVGogglesB_gry_F", 120000, "nvg"],
-	//["NVG AP (Black)", "NVGogglesB_blk_F", 120000, "nvg"],
-	//["NVG AP (Green)", "NVGogglesB_grn_F", 120000, "nvg"],
+	["NVG AP (Brown)", "NVGogglesB_gry_F", 120000, "nvg"],
+	["NVG AP (Black)", "NVGogglesB_blk_F", 120000, "nvg"],
+	["NVG AP (Green)", "NVGogglesB_grn_F", 120000, "nvg"],
 	["Binoculars", "Binocular", 500, "binoc"],
 	["Rangefinder", "Rangefinder", 1500, "binoc"],
-	//["Laser Designator (Sand)", "Laserdesignator", 350000, "binoc", "noDLC"], // Increase price to 2500 if A3W_disableBuiltInThermal = 0
-	//["Laser Designator (Hex)", "Laserdesignator_02", 350000, "binoc", "noDLC"],
-	//["Laser Designator (Olive)", "Laserdesignator_03", 350000, "binoc", "noDLC"],
+	["Laser Designator (Sand)", "Laserdesignator", 350000, "binoc", "noDLC"], // Increase price to 2500 if A3W_disableBuiltInThermal = 0
+	["Laser Designator (Hex)", "Laserdesignator_02", 350000, "binoc", "noDLC"],
+	["Laser Designator (Olive)", "Laserdesignator_03", 350000, "binoc", "noDLC"],
 	["Laser batteries", "Laserbatteries", 1000, "backpack"],
 	["IR Grenade", "B_IR_Grenade", 500, "mag", "WEST"],
 	["IR Grenade", "O_IR_Grenade", 500, "mag", "EAST"],
@@ -823,9 +823,9 @@ genItemArray = compileFinal str
 	["Tinted Spectacles", "G_Spectacles_Tinted", 100, "gogg"],
 	["Radio AN/PRC-154 2k(rifleman)", "tf_anprc154_3", 250, "item"],
 	["Radio AN/PRC148-JEM 5k(personal)", "tf_anprc148jem_4", 450, "item"],
-	["Radio AN/PRC-155 (20k)", "tf_anprc155", 1000, "backpack"],
-	["Radio AN/PRC-155 (20k)Coyote", "tf_anprc155_coyote", 1200, "backpack"],
-	["Radio AN/ARC-164 40k(airborne)", "tf_anarc164", 1500, "backpack"]
+	["Radio AN/PRC-155 (20k)", "tf_anprc155", 500, "backpack"],
+	["Radio AN/PRC-155 (20k)Coyote", "tf_anprc155_coyote", 550, "backpack"],
+	["Radio AN/ARC-164 40k(airborne)", "tf_anarc164", 600, "backpack"]
 ];
 
 allStoreMagazines = compileFinal str (call ammoArray + call throwputArray + call genItemArray);
@@ -946,11 +946,11 @@ landArray = compileFinal str
 
 armoredArray = compileFinal str
 [
-	["Prowler (Doorless)", "B_CTRG_LSV_01_light_F", 18000, "vehicle", "SKIPSAVE"],
-	["Prowler", "B_T_LSV_01_unarmed_F", 18000, "vehicle", "SKIPSAVE"],
-	["Prowler HMG", "B_T_LSV_01_armed_F", 18000, "vehicle", "SKIPSAVE"],
-	["Qilin", "O_T_LSV_02_unarmed_F", 18000, "vehicle", "SKIPSAVE"],
-	["Qilin Minigun", "O_T_LSV_02_armed_F", 18000, "vehicle", "SKIPSAVE"],	
+	["Prowler (Doorless)", "B_CTRG_LSV_01_light_F", 12000, "vehicle", "SKIPSAVE"],
+	["Prowler", "B_T_LSV_01_unarmed_F", 14000, "vehicle", "SKIPSAVE"],
+	["Prowler HMG", "B_T_LSV_01_armed_F", 20000, "vehicle", "SKIPSAVE"],
+	["Qilin", "O_T_LSV_02_unarmed_F", 16000, "vehicle", "SKIPSAVE"],
+	["Qilin Minigun", "O_T_LSV_02_armed_F", 22000, "vehicle", "SKIPSAVE"],	
 
 	["Hunter", "B_MRAP_01_F", 14000, "vehicle"],
 	["Hunter HMG", "B_MRAP_01_hmg_F", 50000, "vehicle"],
@@ -976,11 +976,11 @@ tanksArray = compileFinal str
 	["ZSU-39 Tigris AA", "O_APC_Tracked_02_AA_F", 600000, "vehicle"],
 	["M2A1 Slammer", "B_MBT_01_cannon_F", 700000, "vehicle"],
 	["M2A4 Slammer HMG", "B_MBT_01_TUSK_F", 800000, "vehicle"], // Commander gun variant
-	["T-100 Varsuk", "O_MBT_02_cannon_F", 900000, "vehicle"],
+	["T-100 Varsuk", "O_MBT_02_cannon_F", 1000000, "vehicle"],
 	["MBT-52 Kuma", "I_MBT_03_cannon_F", 1000000, "vehicle"],
-	["M4 Scorcher", "B_T_MBT_01_arty_F", 10000000, "vehicle"],
-	["2S9 Sochor", "O_T_MBT_02_arty_ghex_F", 15000000, "vehicle"],
-	["M5 SandStorm MLRS", "B_T_MBT_01_mlrs_F", 30000000, "vehicle"]
+	["M4 Scorcher", "B_T_MBT_01_arty_F", 5000000, "vehicle"],
+	["2S9 Sochor", "O_T_MBT_02_arty_ghex_F", 7000000, "vehicle"],
+	["M5 SandStorm MLRS", "B_T_MBT_01_mlrs_F", 10000000, "vehicle"]
 ];
 
 
@@ -1003,7 +1003,7 @@ helicoptersArray = compileFinal str
 	["Mi-290 Taru (Medical)", "O_Heli_Transport_04_medevac_F",325000, "vehicle"],
 	["Mi-290 Taru (Repair)", "O_Heli_Transport_04_repair_F", 325000, "vehicle"],
 
-	["CH-67 Huron (Black)", "B_Heli_Transport_03_unarmed_F", 325000, "vehicle"], // CH-47
+	//["CH-67 Huron (Black)", "B_Heli_Transport_03_unarmed_F", 325000, "vehicle"], // CH-47
 	["CH-67 Huron (Armed)", "B_Heli_Transport_03_F", 350000, "vehicle"], // CH-47 with 2 side miniguns
 
 	["UH-80 Ghost Hawk", "B_Heli_Transport_01_F", 450000, "vehicle"], // UH-60 Stealth with 2 side miniguns
@@ -1023,12 +1023,12 @@ planesArray = compileFinal str
 
 	["A-143 Buzzard AA", "I_Plane_Fighter_03_AA_F", 1000000, "vehicle"],
 	["A-143 Buzzard CAS", "I_Plane_Fighter_03_CAS_F", 1000000, "vehicle"],
-	["A-164 Wipeout CAS", "B_Plane_CAS_01_F", 1200000, "vehicle"],
-	["To-199 Neophron CAS", "O_Plane_CAS_02_F", 1200000, "vehicle"],
+	["A-164 Wipeout CAS", "B_Plane_CAS_01_F", 1000000, "vehicle"],
+	["To-199 Neophron CAS", "O_Plane_CAS_02_F", 1000000, "vehicle"],
 
 	["V-44 X Blackfish (Infantry)", "B_T_VTOL_01_infantry_F", 200000, "vehicle"],
-	["V-44 X Blackfish (Gunship)", "B_T_VTOL_01_armed_F", 2500000, "vehicle"],
-	["Y-32 Xi'an", "O_T_VTOL_02_infantry_F", 2000000, "vehicle"],
+	["V-44 X Blackfish (Gunship)", "B_T_VTOL_01_armed_F", 1500000, "vehicle"],
+	["Y-32 Xi'an", "O_T_VTOL_02_infantry_F", 1000000, "vehicle"],
 
 	["MQ4A Greyhawk Missile UAV", "B_UAV_02_F", 950000, "vehicle"],
 	["MQ4A Greyhawk Bomber UAV", "B_UAV_02_CAS_F", 800000, "vehicle"], // Bomber UAVs are a lot harder to use, hence why they are cheaper than Missile ones
@@ -1374,7 +1374,7 @@ customPlayerItems = compileFinal str
 
 donatorItems = compileFinal str
 [
-/*"H_MilCap_blue",
+"H_MilCap_blue",
 "H_MilCap_gry",
 "H_MilCap_oucamo",
 "H_MilCap_rucamo",
@@ -1481,36 +1481,48 @@ donatorItems = compileFinal str
 "G_Squares",
 "G_Tactical_Clear",
 "G_Tactical_Black",
-"G_Spectacles_Tinted"*/
+"G_Spectacles_Tinted"
 ];
 
 //Put all gun, ammo, or general item classes in this list if you only want them only accessible through missions (this list will not add these items to mission crates, do that manually)
 missionOnlyItems = compileFinal str
 [
-//"srifle_GM6_F",
-//"srifle_GM6_camo_F",
-//"srifle_GM6_ghex_F",
-//"MMG_02_sand_F",
-//"MMG_02_camo_F",
-//"MMG_02_black_F",
-//"MMG_01_tan_F",
-//"MMG_01_hex_F",
+"srifle_GM6_F",
+"srifle_GM6_camo_F",
+"srifle_GM6_ghex_F",
+"MMG_02_sand_F",
+"MMG_02_camo_F",
+"MMG_02_black_F",
+"MMG_01_tan_F",
+"MMG_01_hex_F",
 "Titan_AT",
 "Titan_AP",
+"Titan_AA",
+"launch_NLAW_F",
+"launch_Titan_short_F", 
+"launch_O_Titan_short_F", 
+"launch_I_Titan_short_F", 
+"launch_B_Titan_short_tna_F",
+"launch_O_Titan_short_ghex_F", 
+"launch_Titan_F",
+ "launch_O_Titan_F",
+"launch_I_Titan_F", 
+"launch_B_Titan_tna_F",
+"launch_O_Titan_ghex_F",
 "Laserdesignator",
 "Laserdesignator_02",
 "Laserdesignator_03",
-"optic_tws",
-"optic_tws_mg",
-"optic_Nightstalker",
 "H_HelmetO_ViperSP_hex_F",
 "H_HelmetO_ViperSP_ghex_F",
 "NVGogglesB_gry_F",
 "NVGogglesB_blk_F",
-"NVGogglesB_grn_F"
-//"B_UAV_01_backpack_F",
-//"O_UAV_01_backpack_F",
-//"I_UAV_01_backpack_F"
+"NVGogglesB_grn_F",
+"optic_tws",
+"optic_tws_mg",
+"optic_Nightstalker",
+"B_UAV_01_backpack_F",
+"O_UAV_01_backpack_F",
+"I_UAV_01_backpack_F"
 ];
 
 call compile preprocessFileLineNumbers "mapConfig\storeOwners.sqf";

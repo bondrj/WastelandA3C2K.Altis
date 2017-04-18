@@ -66,29 +66,6 @@ else
 	if (!hasInterface) exitWith {};
 	if !([_victim,_killer] isEqualTypeAll "") exitWith {};
 
-	if (_killer != "") then
-	{
-		if (_friendlyFire) then
-		{
-			[format["%1 teamkilled %2", _killerName, _victimName]] call MAR_fnc_log;
-		}
-		else
-		{
-			[format["%1 killed %2", _killerName, _victimName]] call MAR_fnc_log;
-		};
-	}
-	else
-	{
-		if (_friendlyFire) then
-		{
-			[format["%1 was teamkilled", _victimName]] call MAR_fnc_log;
-		}
-		else
-		{
-			[format["%1 died", _victimName]] call MAR_fnc_log;
-		};
-	};
-
 	// FOR CONSISTENT USER EXPERIENCE, MESSAGES SHOULD BE LOWERCASE, INVARIABLE, AND EXPLICIT (NO PUNS OR EUPHEMISMS), JUST LIKE DEFAULT ARMA MESSAGES
 	private _message = switch (_cause) do
 	{

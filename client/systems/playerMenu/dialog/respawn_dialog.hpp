@@ -323,18 +323,5 @@ class RespawnSelectionDialog
 			y = RspnLobbyButton_Y;
 			w = RspnGroupButton_W;
 		};
-		
-		class RandomSpawnButton2: w_RscButton
-		{
-			idc = -1;
-			onButtonClick = call spawnRandomAir;
-			text = "Salto Random";
-			sizeEx = 0.04 * TEXT_SCALE;
-
-			x = 0.330 * safezoneW + safezoneX;
-			y = 0.324 * safezoneH + safezoneY;
-			w = 0.100 * safezoneW;
-			h = 0.034 * safezoneH;
-		};
 	};
 };

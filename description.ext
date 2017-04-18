@@ -64,7 +64,7 @@ briefing = 0; // if 0, skip Continue button
 #include "client\systems\adminPanel\dialog\objectSearch.hpp"
 #include "client\systems\playerMenu\dialog\respawn_dialog.hpp"
 #include "client\systems\playerMenu\dialog\teamkill_dialog.hpp"
-//#include "addons\outlw_magrepack\config.hpp"
+#include "addons\outlw_magrepack\config.hpp"
 #include "addons\gui\gui.hpp"
 #include "addons\parking\list_simple_menu.hpp"
 //#include "addons\CHVD\dialog.hpp"
@@ -74,7 +74,6 @@ briefing = 0; // if 0, skip Continue button
 #include "infiSTAR_AdminMenu.hpp"
 #include "scarCODE\ServerInfoMenu\hpp\CfgServerInfoMenu.hpp"
 #include "scarCODE\ServerInfoMenu\hpp\RscDisplayServerInfoMenu.hpp"
-#include "scarCODE\SimpleAmmoRepacker\hpp\RscDisplaySimpleAmmoRepacker.hpp" // Simples Ammo reembalador
 #include "addons\UniformPainter\dialog\UniformPainter_mainMenu.hpp"
 #include "addons\VehiclePainter\dialog\VehiclePainter_mainMenu.hpp"
 

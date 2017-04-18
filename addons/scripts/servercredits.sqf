@@ -8,7 +8,7 @@ _messages = [
 	["Nível dos Bots:", "HARDCORE"],
 	["Headshot No Revive:", "ATIVADO"],
 	["SERVIDOR 64BIT:", "Database: extDB3"],
-	["ATM limit max:", "100.000.000"],
+	["ATM limit max:", "10.000.000"],
 	["Objetos e Beacons:", "Ficam salvos por até 7 DIAS"],
 	["Veiculos Locados:", "Ficam salvos por até 5 DIAS"],
 	["Minas Salvas:", "Ficam salvas por até 5 DIAS"],

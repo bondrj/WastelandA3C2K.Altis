@@ -10,38 +10,37 @@ MainMissions =
 [
 	// Mission filename, weight
 	["mission_ArmedDiversquad", 0.1],
-	["mission_Coastal_Convoy", 0.6],
-	["mission_Convoy", 0.9],
-	["mission_HostileHeliFormation", 0.5],
-	["mission_APC", 0.3],
-	["mission_LightArmVeh", 0.8],
-	["mission_ArmedHeli", 0.5],
-	["mission_CivHeli", 0.9],
-	["mission_Smugglers", 0.7]
+	["mission_Coastal_Convoy", 0.1],
+	["mission_Convoy", 1],
+	["mission_HostileHeliFormation", 0.1],
+	["mission_APC", 1],
+	["mission_LightArmVeh", 1],
+	["mission_ArmedHeli", 1],
+	["mission_CivHeli", 1],
+	["mission_Smugglers", 1]
 ];
 
 SideMissions =
 [
-	["mission_HostileHelicopter", 0.7],
-	["mission_HostileVTOL", 1],
+	["mission_HostileHelicopter", 0.1],
 	["mission_MiniConvoy", 1],
-	["mission_SunkenSupplies", 0.7],
+	["mission_SunkenSupplies", 0.1],
 	["mission_AirWreck", 1],
 	["mission_Outpost", 1],
 	["mission_Truck", 0.5],
-	["mission_GeoCache", 0.7],
+	["mission_GeoCache", 0.1],
 	["mission_HostageRescue", 1],
-	["mission_Occupation", 0.8],
-	["mission_Sniper", 0.6]
+	["mission_Occupation", 0.7],
+	["mission_Sniper", 0.7]
 ];
 
 MoneyMissions =
 [
-    ["mission_MoneyShipment", 0.8],
-	["mission_SunkenTreasure", 0.4],
+	["mission_MoneyShipment", 0.6],
+	["mission_SunkenTreasure", 0.2],
 	["mission_drugsRunners", 0.5],
-	["mission_Roadblock", 0.5],
-	["mission_TownInvasion", 0.3]
+	["mission_Roadblock", 0.6],
+	["mission_TownInvasion", 1]
 ];
 
 missionType_water =

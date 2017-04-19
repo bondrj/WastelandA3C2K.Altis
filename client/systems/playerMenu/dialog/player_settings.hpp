@@ -150,13 +150,13 @@ class playerSettings {
 			w = 0.125; h = 0.033 * safezoneH;
 		};
 
-		class GroupsButton : w_RscButton {
-			idc = groupButton;
-			text = "Grupo";
-			onButtonClick = "[] execVM 'client\systems\groups\loadGroupManagement.sqf'";
+		/*class airdrop : w_RscButton {
+			idc = -1;
+			text = "Airdrop Menu";
+			onButtonClick = "[] execVM 'addons\APOC_Airdrop_Assistance\APOC_cli_menu.sqf'";	
 			x = 0.02; y = 0.47;
 			w = 0.133; h = 0.033 * safezoneH;
-		};
+		};*/
 
 		class btnDistanceFar : w_RscButton {
 			idc = -1;
@@ -174,10 +174,10 @@ class playerSettings {
 			w = 0.362; h = 0.033 * safezoneH;
 		};
 
-		class airdrop : w_RscButton {
-			idc = -1;
-			text = "Airdrop Menu";
-			onButtonClick = "[] execVM 'addons\APOC_Airdrop_Assistance\APOC_cli_menu.sqf'";		
+		class GroupsButton : w_RscButton {
+			idc = groupButton;
+			text = "Grupo";
+			onButtonClick = "[] execVM 'client\systems\groups\loadGroupManagement.sqf'";	
 			x = 0.158; y = 0.68;
 			w = 0.225; h = 0.033 * safezoneH;
 		};

@@ -47,6 +47,7 @@ A3W_scriptThreads = [];
 [] execVM "config.sqf";
 [] execVM "storeConfig.sqf"; // Separated as its now v large
 [] execVM "briefing.sqf";
+//[] execVM "killTicker.sqf"; // killTicker
 
 if (!isDedicated) then
 {

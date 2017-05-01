@@ -12,7 +12,7 @@ MainMissions =
 	["mission_ArmedDiversquad", 0.1],
 	["mission_Coastal_Convoy", 0.1],
 	["mission_Convoy", 1],
-	["mission_HostileHeliFormation", 0.5],
+	["mission_HostileHeliFormation", 0.1],
 	["mission_APC", 1],
 	["mission_LightArmVeh", 1],
 	["mission_ArmedHeli", 1],
@@ -22,7 +22,7 @@ MainMissions =
 
 SideMissions =
 [
-	["mission_HostileHelicopter", 0.5],
+	["mission_HostileHelicopter", 0.1],
 	["mission_MiniConvoy", 1],
 	["mission_SunkenSupplies", 0.1],
 	["mission_AirWreck", 1],

@@ -55,34 +55,6 @@ switch (true) do
 		};
 	};
 
-	// 1000m - 1 Key
-	case (_key in A3W_customKeys_1000m): //Crazy to Kill -  Distancia F1, F2, F3 e F4
-	{
-			setViewDistance 1000; setObjectViewDistance 800; setTerrainGrid 3.125;
-			["Visão ajustada a 1000 metros.", 5] call mf_notify_client;
-	};
-
-		// 1500m - 2 Key
-	case (_key in A3W_customKeys_1500m):
-	{
-			setViewDistance 1500; setObjectViewDistance 1000; setTerrainGrid 3.125;
-			["Visão ajustada a 1500 metros.", 5] call mf_notify_client;
-	};
-
-		// 2500m - 3 Key
-	case (_key in A3W_customKeys_2500m):
-	{
-			setViewDistance 2500; setObjectViewDistance 2000; setTerrainGrid 3.125;
-			["Visão ajustada a 2500 metros.", 5] call mf_notify_client;
-	};
-
-		// 3200m - 4 Key
-	case (_key in A3W_customKeys_3200m):
-	{
-			setViewDistance 3200; setObjectViewDistance 3000; setTerrainGrid 3.125;
-			["Visão ajustada a 3200 metros.", 5] call mf_notify_client;
-	};	
-	
 	// Emergency Eject - Del Key
 	case (_key in A3W_customKeys_eject):
 	{

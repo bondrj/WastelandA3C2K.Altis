@@ -102,8 +102,8 @@ A3W_mineSaving = 1;                // Save placed mines between server restarts 
 A3W_mineLifetime = 5*24;           // Maximum lifetime in hours for saved mines across server restarts (0 = no time limit)
 A3W_privateStorage = 1;            // Enable persistent private storage locations across the map (0 = no, 1 = yes)
 A3W_privateParking = 1;            // If vehicleSaving = 1 and savingMethod = "extDB" or "sock", enable persistent private parking locations across the map (0 = no, 1 = yes)
-A3W_privateParkingLimit = 6;       // Maximum amount of vehicles allowed in private parking (0 = no limit)
-A3W_privateParkingCost = 15000;     // Cost to retrieve an individual vehicle from private parking
+A3W_privateParkingLimit = 3;       // Maximum amount of vehicles allowed in private parking (0 = no limit)
+A3W_privateParkingCost = 5000;     // Cost to retrieve an individual vehicle from private parking
 A3W_vehicleLocking = 1;            // Enable vehicle locking and lockpicking (0 = no, 1 = yes)
 
 // iniDB settings
@@ -159,7 +159,7 @@ A3W_vehicleLoot = 1;               // Level of loot added to vehicles (0 = none,
 A3W_simpleLoot = 0;                // Spawn loot in all buildings (0 = no, 1 = yes)
 
 // Territory settings
-A3W_territoryCaptureTime = 2*60;   // Time in seconds needed to capture a territory
+A3W_territoryCaptureTime = 3*60;   // Time in seconds needed to capture a territory
 A3W_territoryPayroll = 1;          // Periodically reward sides and indie groups based on how many territories they own (0 = no, 1 = yes)
 A3W_payrollInterval = 15*60;       // Delay in seconds between each payroll
 A3W_payrollAmount = 500;          // Amount of money rewarded per territory on each payroll

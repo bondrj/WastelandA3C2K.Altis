@@ -33,7 +33,7 @@ class CfgServerInfoMenu
          menuName = "Missões";
          title = "<t color='#ffffff'>Missões do Servidor</t>";
          content[] = {
-            "<br/>• Small Money Shipment: $50,000<br />• Medium Money Shipment: $75,000<br />• Large Money Shipment: $100,000<br />• Heavy Money Shipment: $150,000<br />• Sunken Treasure: $150,000<br />• Anonymous Hackers: DESATIVADO<br /></p>"
+            "<br/>• Small Money Shipment: $50,000<br />• Medium Money Shipment: $100,000<br />• Large Money Shipment: $150,000<br />• Heavy Money Shipment: $200,000<br />• Sunken Treasure: $85,000<br />• Anonymous Hackers: DESATIVADO<br /></p>"
          };
       };
       class third
@@ -60,7 +60,7 @@ class CfgServerInfoMenu
          menuName = "Comunicação";
          title = "SERVIDOR DE VOZ E WEBSITE"; 
          content[] = {
-            "Website: <t color='#0091CD'><a href='http://www.clanc2k.com.br'>CLANC2K.COM.BR</a></t><br/>Facebook: <t color='#0091CD'><a href='https://www.facebook.com/crazytokill'>www.facebook.com/crazytokill</a></t><br/>Youtube: <t color='#0091CD'><a href='https://www.youtube.com/user/oficialclanc2k'>www.youtube.com/user/oficialclanc2k</a></t><br/>Whatsapp: <t color='#0091CD'><a href='https://chat.whatsapp.com/LPoq4LSqIM23ynYaUB8dg1'> (219) 8401-5699 </a></t> <br/>TeamSpeak: <t color='#0091CD'><a href='http://invite.teamspeak.com/ts3.clanc2k.com.br/?port=9987'>ts3.clanc2k.com.br<br/></a></t>"
+            "Website: <t color='#0091CD'><a href='http://www.clanc2k.com.br'>CLANC2K.COM.BR</a></t><br/>Facebook: <t color='#0091CD'><a href='https://www.facebook.com/crazytokill'>www.facebook.com/crazytokill</a></t><br/>Youtube: <t color='#0091CD'><a href='https://www.youtube.com/user/oficialclanc2k'>www.youtube.com/user/oficialclanc2k</a></t><br/>TeamSpeak: <t color='#0091CD'><a href='http://invite.teamspeak.com/ts3.clanc2k.com.br/?port=9987'>ts3.clanc2k.com.br<br/></a></t>"
          };
       };
       class seventh
@@ -68,7 +68,7 @@ class CfgServerInfoMenu
          menuName = "Atualizações";
          title = "GitHub do C2K";
          content[] = {
-            "GitHub: <t color='#0091CD'><a href='https://github.com/C2KA3/WastelandA3C2K/commits/master'>github.com/C2KA3/WastelandA3C2K<br/></a></t>"
+            "GitHub: <t color='#0091CD'><a href='https://github.com/bondrj/WastelandA3C2K.Altis<br/></a></t>"
          };
       };
    };

@@ -25,7 +25,11 @@ forEach
 	["A3W_customKeys_playerNames", [199,219,220]], // 199 = Home, 219 = LWin, 220 = RWin
 	["A3W_customKeys_earPlugs", [207]], // 207 = End
 	["A3W_customKeys_eject", [211]], // 211 = Del
-	["A3W_customKeys_holster", [35]] // 35 = H 
+	["A3W_customKeys_holster", [35]], // 35 = H 
+	["A3W_customKeys_1000m", [59]], //  800m ~ 1000m
+	["A3W_customKeys_1500m", [60]], // 1000m ~ 1500m
+	["A3W_customKeys_2500m", [61]], // 2000m ~ 2500m
+	["A3W_customKeys_3200m", [62]]  // 3000m ~ 3200m
 ];
 
 /*_voiceKeys = [];

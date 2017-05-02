@@ -79,8 +79,8 @@ switch (true) do
 		// 3200m - 4 Key
 	case (_key in A3W_customKeys_3200m):
 	{
-			setViewDistance 3200; setObjectViewDistance 3000; setTerrainGrid 3.125;
-			["Visão ajustada a 3200 metros.", 5] call mf_notify_client;
+			setViewDistance 3400; setObjectViewDistance 3000; setTerrainGrid 3.125;
+			["Visão ajustada a 3400 metros.", 5] call mf_notify_client;
 	};	
 	
 	// Emergency Eject - Del Key

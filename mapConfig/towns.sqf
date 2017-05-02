@@ -36,5 +36,6 @@
 	["Town_28", 175, "Feres"],
 	["Town_29", 175, "Molos"],
 	["Town_30", 175, "Rodopoli"],
-	["Town_31", 150, "Pefkas Bay"]
+	["Town_31", 150, "Pefkas Bay"],
+	["Town_32", 36, "SFAKA"]
 ]

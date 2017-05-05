@@ -55,7 +55,7 @@ switch (true) do
 		};
 	};
 
-	// 1000m - 1 Key
+	/*// 1000m - 1 Key
 	case (_key in A3W_customKeys_1000m): //Crazy to Kill -  Distancia F1, F2, F3 e F4
 	{
 			setViewDistance 1000; setObjectViewDistance 800; setTerrainGrid 3.125;
@@ -81,7 +81,7 @@ switch (true) do
 	{
 			setViewDistance 3400; setObjectViewDistance 3000; setTerrainGrid 3.125;
 			["Visão ajustada a 3400 metros.", 5] call mf_notify_client;
-	};	
+	};	*/
 	
 	// Emergency Eject - Del Key
 	case (_key in A3W_customKeys_eject):

@@ -23,9 +23,9 @@ _mindist = 6000;
 //marker text for traders
 _markertext = "CRAZY TO KILL STORE";
 //texture on the flag (has to be 200x200), "" to disable
-_flagtexture = "mapConfig\logo.paa";
+_flagtexture = "mapConfig\C2K.paa";
 //texture on the sign, "" to disable
-_sigtexture = "mapConfig\logo.paa";
+_sigtexture = "mapConfig\C2K.paa";
 
 //if _staticCoords are set here, there will be a trader at that exact position and direction,
 //_blacklistedAreas is where random blackmarkets cannot spawn

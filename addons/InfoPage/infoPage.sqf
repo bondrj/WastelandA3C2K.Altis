@@ -20,6 +20,6 @@ _text = "
 <br />
 <t align='center'><t size='1.2'><t shadow= 1 shadowColor='#0000ff'>Respeita para ser respeitado. Hackers ou exploits são automaticamente banido. BOM JOGO!</t>
 <br />
-<t align='center'><img size='6' shadow = 0 image='mapConfig\logo.paa'/></t>";
+<t align='center'><img size='6' shadow = 0 image='mapConfig\C2K.paa'/></t>";
 
 hint parseText format ["<t align='center'>Seja Bem Vindo %2</t><br />%1",_text, name player];

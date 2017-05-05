@@ -1,5 +1,5 @@
 /////// CONFIG ///////
-_logo = "addons\logo\logo.paa";
+_logo = "addons\logo\C2K.paa";
 //////////////////////
 
 [_logo] spawn

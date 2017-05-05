@@ -97,7 +97,7 @@ class playerSettings {
 
 		class cspText: w_RscText {
 			idc = -1;
-			text = "Vantagens de colaboradores";
+			text = "Vantagem de Colaborador";
 			sizeEx = 0.04;
 			shadow = 2;
 			x = 0.6375;
@@ -167,7 +167,7 @@ class playerSettings {
 
 		class GroupsButton : w_RscButton {
 			idc = groupButton;
-			text = "Gerenciamento de Grupo";
+			text = "Gerenciar Grupo";
 			onButtonClick = "[] execVM 'client\systems\groups\loadGroupManagement.sqf'";
 			x = 0.65;
 			y = 0.74;
@@ -195,7 +195,7 @@ class playerSettings {
 			h = 0.08;
 		};
 
-		class TOParmaInfoButton : w_RscButton {
+		class CfgServerInfoMenu : w_RscButton {
 			idc = -1;
 			text = "Crazy to Kill Notícias";
 			onButtonClick = "createDialog'RscDisplayServerInfoMenu';";

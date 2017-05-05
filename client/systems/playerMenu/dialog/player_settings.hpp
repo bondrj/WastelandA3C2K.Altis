@@ -48,7 +48,7 @@ class playerSettings {
 
 		class moneyIcon : w_RscText {
 			idc = -1;
-			text = "Cash:";
+			text = "Dinheiro:";
 			sizeEx = 0.04;
 			x = 0.025;
 			y = 0.14;
@@ -77,7 +77,7 @@ class playerSettings {
 
 		class bmoney: w_RscText {
 			idc = -1;
-			text = "Bank:";
+			text = "Banco:";
 			sizeEx = 0.04;
 			x = 0.025;
 			y = 0.22;
@@ -97,7 +97,7 @@ class playerSettings {
 
 		class cspText: w_RscText {
 			idc = -1;
-			text = "Community Support Perks";
+			text = "Vantagens de suporte da comunidade";
 			sizeEx = 0.04;
 			shadow = 2;
 			x = 0.6375;
@@ -119,7 +119,7 @@ class playerSettings {
 
 		class DropButton : w_RscButton {
 			idc = -1;
-			text = "Drop";
+			text = "Drope";
 			onButtonClick = "[1] execVM 'client\systems\playerMenu\itemfnc.sqf'";
 			x = 0.175;
 			y = 0.76;
@@ -129,7 +129,7 @@ class playerSettings {
 
 		class UseButton : w_RscButton {
 			idc = -1;
-			text = "Use";
+			text = "Usar";
 			onButtonClick = "[0] execVM 'client\systems\playerMenu\itemfnc.sqf'";
 			x = 0.025;
 			y = 0.76;
@@ -147,7 +147,7 @@ class playerSettings {
 
 		class DropcButton : w_RscButton {
 			idc = -1;
-			text = "Drop";
+			text = "Drope";
 			onButtonClick = "[] execVM 'client\systems\playerMenu\dropMoney.sqf'";
 			x = 0.025;
 			y = 0.86;
@@ -157,7 +157,7 @@ class playerSettings {
 
 		class CloseButton : w_RscButton {
 			idc = close_button;
-			text = "Close";
+			text = "Fechar";
 			onButtonClick = "[] execVM 'client\systems\playerMenu\closePlayerMenu.sqf'";
 			x = 0.35;
 			y = 0.74;
@@ -167,7 +167,7 @@ class playerSettings {
 
 		class GroupsButton : w_RscButton {
 			idc = groupButton;
-			text = "Group Management";
+			text = "Gerenciamento de Grupo";
 			onButtonClick = "[] execVM 'client\systems\groups\loadGroupManagement.sqf'";
 			x = 0.65;
 			y = 0.74;
@@ -177,7 +177,7 @@ class playerSettings {
 
 		class btnDistanceFar : w_RscButton {
 			idc = -1;
-			text = "View Distance";
+			text = "Ver Distância";
 			onButtonClick = "[] spawn TAWVD_fnc_openTAWVD;";
 			x = 0.65;
 			y = 0.64;
@@ -187,7 +187,7 @@ class playerSettings {
 
 		class btnDistanceCustom : w_RscButton {
 			idc = -1;
-			text = "Messages";
+			text = "Mensagens";
 			onButtonClick = "[] execVM 'addons\JTS_PM\JTS_PM.sqf'";
 			x = 0.35;
 			y = 0.64;

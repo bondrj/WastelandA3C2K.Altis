@@ -58,7 +58,7 @@ class playerSettings {
 
 		class serverLogo : w_RscPicture {
 			idc = -1;
-			text = "modConfig\C2K.paa";
+			text = "mapConfig\C2K.paa";
 			x = 0.35;
 			y = 0.16;
 			w = 0.2625;
@@ -97,7 +97,7 @@ class playerSettings {
 
 		class cspText: w_RscText {
 			idc = -1;
-			text = "Vantagens de suporte da comunidade";
+			text = "Vantagens de colaboradores";
 			sizeEx = 0.04;
 			shadow = 2;
 			x = 0.6375;

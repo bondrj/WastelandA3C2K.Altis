@@ -48,6 +48,7 @@ switch (true) do
 		_player addMagazine "30Rnd_9x21_Mag";
 		_player addWeapon "SMG_02_F";
 		_player addMagazine "30Rnd_9x21_Mag";
+		_player addPrimaryWeaponItem "optic_aco_smg";
 		_player addPrimaryWeaponItem "acc_flashlight";
 		_player addMagazine "9Rnd_45ACP_Mag";
 		_player addWeapon "hgun_ACPC2_F";

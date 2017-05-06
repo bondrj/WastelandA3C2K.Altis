@@ -26,7 +26,7 @@ _unitTypes =
 grenadier_loadout =  {
   private["_unit"];
   _unit = _this;
-  _unit addUniform "U_I_Ghilliesuit";
+  _unit addUniform "U_I_FullGhillie_ard";
   _unit addMagazine "1Rnd_HE_Grenade_shell";
   _unit addMagazine "30Rnd_65x39_caseless_mag";
   _unit addWeapon "arifle_MX_GL_Black_F";
@@ -43,7 +43,7 @@ grenadier_loadout =  {
 spotter_loadout = {
   private["_unit"];
   _unit = _this;
-  _unit addUniform "U_I_Ghilliesuit";
+  _unit addUniform "U_I_FullGhillie_ard";
   _unit addVest "V_BandollierB_oli";
   _unit addMagazine "20Rnd_762x51_Mag";
   _unit addWeapon "srifle_EBR_F";
@@ -59,7 +59,7 @@ spotter_loadout = {
 sniper_loadout = {
   private["_unit"];
   _unit = _this;
-  _unit addUniform "U_I_Ghilliesuit";
+  _unit addUniform "U_I_FullGhillie_ard";
   _unit addMagazine "5Rnd_127x108_APDS_Mag";
   _unit addWeapon "srifle_GM6_F";
   _unit addPrimaryWeaponItem "optic_NVS";
@@ -74,10 +74,10 @@ sniper_loadout = {
 sniper2_loadout = {
   private["_unit"];
   _unit = _this;
-  _unit addUniform "U_I_GhillieSuit";
+  _unit addUniform "U_I_FullGhillie_ard";
   _unit addMagazine "30Rnd_65x39_caseless_mag";
   _unit addWeapon "arifle_MXM_Black_F";
-  _unit addPrimaryWeaponItem "optic_LRPS";
+  _unit addPrimaryWeaponItem "optic_tws";
   _unit addPrimaryWeaponItem "acc_pointer_IR";
   _unit addPrimaryWeaponItem "muzzle_snds_H";
   _unit addVest "V_BandollierB_oli";
@@ -91,7 +91,7 @@ sniper2_loadout = {
 aa_loadout = {
   private["_unit"];
   _unit = _this;
-  _unit addUniform "U_I_GhillieSuit";
+  _unit addUniform "U_I_FullGhillie_ard";
   _unit addMagazine "30Rnd_65x39_caseless_mag_Tracer";
   _unit addWeapon "arifle_MX_F";
   _unit addPrimaryWeaponItem "optic_Aco";
@@ -110,7 +110,7 @@ at_loadout = {
   private["_unit"];
   _unit = _this;
 
-  _unit addUniform "U_I_GhillieSuit";
+  _unit addUniform "U_I_FullGhillie_ard";
   _unit addMagazine "30Rnd_65x39_caseless_mag_Tracer";
   _unit addWeapon "arifle_MX_F";
   _unit addPrimaryWeaponItem "optic_Aco";
@@ -120,6 +120,7 @@ at_loadout = {
   _unit addMagazine "30Rnd_65x39_caseless_mag_Tracer";
   _unit addMagazine "Titan_AT";
   _unit addWeapon "launch_Titan_short_F";
+  _unit addMagazine "Titan_AT";
   _unit addItem "NVGoggles";
   _unit assignItem "NVGoggles";
 };
@@ -128,7 +129,7 @@ leader_loadout = {
   private["_unit"];
   _unit = _this;
 
-  _unit addUniform "U_I_GhillieSuit";
+  _unit addUniform "U_I_FullGhillie_ard";
   _unit addMagazine "30Rnd_65x39_caseless_green_mag_Tracer";
   _unit addWeapon "arifle_Katiba_F";
   _unit addPrimaryWeaponItem "optic_Arco";
@@ -147,7 +148,7 @@ rifleman_loadout = {
   private["_unit"];
   _unit = _this;
 
-  _unit addUniform "U_I_GhillieSuit";
+  _unit addUniform "U_I_FullGhillie_ard";
   _unit addMagazine "20Rnd_762x51_Mag";
   _unit addWeapon "srifle_EBR_F";
   _unit addPrimaryWeaponItem "optic_Aco";

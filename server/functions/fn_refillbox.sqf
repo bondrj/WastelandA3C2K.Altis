@@ -84,7 +84,7 @@ switch (_boxType) do
 		[
 			// Item type, Item class(es), # of items, # of magazines per weapon
 			["wep", ["srifle_LRR_camo_F", "srifle_LRR_tna_F", "srifle_EBR_F", "srifle_DMR_01_F"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(3,6)],
-			["wep", ["srifle_GM6_F", "srifle_GM6_camo_F", "srifle_GM6_ghex_F"], RANDOM_BETWEEN(2,3), RANDOM_BETWEEN(4,6)],
+			["wep", ["srifle_GM6_F", "srifle_GM6_camo_F", "srifle_GM6_ghex_F"], RANDOM_BETWEEN(1,2), RANDOM_BETWEEN(2,5)],
 			["wep", ["Laserdesignator", "Laserdesignator_03"], RANDOM_BETWEEN(2,1)],
 			["wep", "Laserdesignator_02", RANDOM_BETWEEN(2,1)],
 			//["itm", ["H_HelmetO_ViperSP_hex_F", "H_HelmetO_ViperSP_ghex_F"], RANDOM_BETWEEN(0,1)],
@@ -92,7 +92,7 @@ switch (_boxType) do
 			["itm", ["optic_LRPS", "optic_LRPS_ghex_F", "optic_LRPS_tna_F"], RANDOM_BETWEEN(0,1)],
 			["itm", ["optic_Nightstalker", "optic_tws"], RANDOM_BETWEEN(0,1)],
 			["mag", "HandGrenade", RANDOM_BETWEEN(0,5)],
-			["mag", "5Rnd_127x108_APDS_Mag", RANDOM_BETWEEN(2,4)]
+			["mag", "5Rnd_127x108_APDS_Mag", RANDOM_BETWEEN(0,2)]
 		];
 	};
 	case "mission_Uniform":
